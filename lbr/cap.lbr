@@ -1,0 +1,4699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="0805">
+<wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
+<wire x1="-0.41" y1="-0.585" x2="0.41" y2="-0.585" width="0.1016" layer="51"/>
+<smd name="1" x="-0.9525" y="0" dx="1.2" dy="1.3" layer="1" roundness="10"/>
+<smd name="2" x="0.9525" y="0" dx="1.2" dy="1.3" layer="1" roundness="10"/>
+<text x="-1.5875" y="0.889" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.5874" y="-1.778" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<rectangle x1="0.4064" y1="-0.65" x2="1.0564" y2="0.65" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.65" x2="-0.4168" y2="0.65" layer="51"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.2032" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-1.651" y="0.762"/>
+<vertex x="-1.651" y="-0.762"/>
+<vertex x="1.651" y="-0.762"/>
+<vertex x="1.651" y="0.762"/>
+</polygon>
+</package>
+<package name="0603">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+0603, grid 0.0125 inch</description>
+<wire x1="-0.432" y1="-0.306" x2="0.432" y2="-0.306" width="0.1016" layer="51"/>
+<wire x1="0.432" y1="0.306" x2="-0.432" y2="0.306" width="0.1016" layer="51"/>
+<smd name="1" x="-0.7938" y="0" dx="0.9" dy="0.8" layer="1" roundness="10"/>
+<smd name="2" x="0.7938" y="0" dx="0.9" dy="0.8" layer="1" roundness="10"/>
+<text x="-1.397" y="0.5715" size="0.889" layer="25" ratio="12">&gt;NAME</text>
+<text x="-1.397" y="-1.4923" size="0.762" layer="27" ratio="12">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4" x2="0.8382" y2="0.4" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4" x2="-0.4318" y2="0.4" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="0" y1="0.381" x2="0" y2="-0.381" width="0.2032" layer="21"/>
+<rectangle x1="-1.27" y1="-0.5715" x2="1.27" y2="0.5715" layer="39"/>
+</package>
+<package name="0402">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+0402, grid 0.0125 inch</description>
+<wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1016" layer="51"/>
+<wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1016" layer="51"/>
+<smd name="1" x="-0.4762" y="0" dx="0.6" dy="0.6" layer="1" roundness="10"/>
+<smd name="2" x="0.4762" y="0" dx="0.6" dy="0.6" layer="1" roundness="10"/>
+<text x="-0.9525" y="0.5399" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-0.9525" y="-1.4606" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-0.0794" y1="-0.2381" x2="0.0794" y2="0.2381" layer="35"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<wire x1="0" y1="0.254" x2="0" y2="-0.254" width="0.127" layer="21"/>
+<rectangle x1="-1.016" y1="-0.508" x2="1.016" y2="0.508" layer="39"/>
+</package>
+<package name="1206">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+1206, grid 0.0125 inch</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1016" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1016" layer="51"/>
+<smd name="2" x="1.3288" y="0" dx="1.4" dy="1.8" layer="1" roundness="10"/>
+<smd name="1" x="-1.3287" y="0" dx="1.4" dy="1.8" layer="1" roundness="10"/>
+<text x="-2.2225" y="1.0795" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.2225" y="-2.0955" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<wire x1="0" y1="0.889" x2="0" y2="-0.889" width="0.2032" layer="21"/>
+<rectangle x1="-2.286" y1="-1.143" x2="2.286" y2="1.143" layer="39"/>
+</package>
+<package name="1210">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+1210, grid 0.0125 inch</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1016" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1016" layer="51"/>
+<smd name="1" x="-1.5875" y="0" dx="1.6" dy="2.7" layer="1" roundness="10"/>
+<smd name="2" x="1.5875" y="0" dx="1.6" dy="2.7" layer="1" roundness="10"/>
+<text x="-2.54" y="1.524" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.54" y="-2.4765" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.2032" layer="21"/>
+<rectangle x1="-2.667" y1="-1.524" x2="2.667" y2="1.524" layer="39"/>
+</package>
+<package name="1608">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.7938" y="0" dx="1.1" dy="1" layer="1" roundness="10"/>
+<smd name="2" x="0.7938" y="0" dx="1.1" dy="1" layer="1" roundness="10"/>
+<text x="-1.397" y="0.762" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.397" y="-1.651" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.2032" layer="21"/>
+<rectangle x1="-1.524" y1="-0.635" x2="1.524" y2="0.635" layer="39"/>
+</package>
+<package name="1808">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-1.4732" y1="1.0002" x2="1.4732" y2="1.0002" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-1.0002" x2="1.4732" y2="-1.0002" width="0.1016" layer="51"/>
+<smd name="1" x="-2.1225" y="0" dx="1.8" dy="2.9" layer="1" roundness="10"/>
+<smd name="2" x="2.1225" y="0" dx="1.8" dy="2.9" layer="1" roundness="10"/>
+<text x="-3.048" y="1.7145" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.048" y="-2.6035" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.3876" y1="-1.1" x2="-1.4376" y2="1.1" layer="51"/>
+<rectangle x1="1.4478" y1="-1.1" x2="2.3978" y2="1.1" layer="51"/>
+<wire x1="0" y1="1.016" x2="0" y2="-1.016" width="0.2032" layer="21"/>
+<rectangle x1="-3.175" y1="-1.651" x2="3.175" y2="1.651" layer="39"/>
+</package>
+<package name="1812">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+1812, grid 0.0125 inch</description>
+<wire x1="-1.4732" y1="1.6002" x2="1.4732" y2="1.6002" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-1.6002" x2="1.4732" y2="-1.6002" width="0.1016" layer="51"/>
+<smd name="1" x="-1.905" y="0" dx="1.905" dy="3.4036" layer="1" roundness="10"/>
+<smd name="2" x="1.905" y="0" dx="1.905" dy="3.4036" layer="1" roundness="10"/>
+<text x="-2.8575" y="2.0003" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.8575" y="-2.9528" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.3876" y1="-1.651" x2="-1.4376" y2="1.649" layer="51"/>
+<rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
+<rectangle x1="-0.3175" y1="-0.7" x2="0.3175" y2="0.7" layer="35"/>
+<wire x1="0" y1="-1.651" x2="0" y2="1.651" width="0.2032" layer="21"/>
+<rectangle x1="-3.048" y1="-1.905" x2="3.048" y2="1.905" layer="39"/>
+</package>
+<package name="1825">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-1.4986" y1="3.2766" x2="1.4732" y2="3.2766" width="0.1016" layer="51"/>
+<wire x1="-1.4732" y1="-3.2766" x2="1.4986" y2="-3.2766" width="0.1016" layer="51"/>
+<smd name="1" x="-1.905" y="0" dx="1.9" dy="6.8" layer="1" roundness="10"/>
+<smd name="2" x="1.905" y="0" dx="1.9" dy="6.8" layer="1" roundness="10"/>
+<text x="-2.8575" y="3.6195" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.7305" y="-4.6355" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.413" y1="-3.3528" x2="-1.463" y2="3.3472" layer="51"/>
+<rectangle x1="1.4478" y1="-3.3528" x2="2.3978" y2="3.3472" layer="51"/>
+<rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
+<wire x1="0" y1="-3.302" x2="0" y2="3.302" width="0.2032" layer="21"/>
+<rectangle x1="-3.048" y1="-3.556" x2="3.048" y2="3.556" layer="39"/>
+</package>
+<package name="2012">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<smd name="1" x="-0.9525" y="0" dx="1.3" dy="1.5" layer="1" roundness="10"/>
+<smd name="2" x="0.9525" y="0" dx="1.3" dy="1.5" layer="1" roundness="10"/>
+<text x="-1.5875" y="0.889" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.5875" y="-1.8415" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.0917" y1="-0.7239" x2="-0.3416" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<wire x1="0" y1="-0.635" x2="0" y2="0.635" width="0.2032" layer="21"/>
+<rectangle x1="-1.778" y1="-0.889" x2="1.778" y2="0.889" layer="39"/>
+</package>
+<package name="2220">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt; - KEMET 2220 Reflow solder&lt;p&gt;
+Metric Code Size 5650</description>
+<wire x1="-2.725" y1="2.425" x2="2.725" y2="2.425" width="0.1016" layer="51"/>
+<wire x1="2.725" y1="-2.425" x2="-2.725" y2="-2.425" width="0.1016" layer="51"/>
+<wire x1="-3.81" y1="3.0956" x2="4.1275" y2="3.0956" width="0.127" layer="21"/>
+<wire x1="4.1275" y1="3.0956" x2="4.1275" y2="-3.0956" width="0.127" layer="21"/>
+<wire x1="4.1275" y1="-3.0956" x2="-3.81" y2="-3.0956" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-3.0956" x2="-3.81" y2="3.0956" width="0.127" layer="21"/>
+<smd name="1" x="-2.54" y="0" dx="1.85" dy="5.5" layer="1"/>
+<smd name="2" x="2.8575" y="0" dx="1.85" dy="5.5" layer="1"/>
+<text x="-3.4925" y="3.4925" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.4925" y="-4.445" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8" y1="-2.5" x2="-2.2" y2="2.5" layer="51"/>
+<rectangle x1="2.2" y1="-2.5" x2="2.8" y2="2.5" layer="51"/>
+<rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
+<rectangle x1="-4.064" y1="-3.302" x2="4.318" y2="3.302" layer="39"/>
+</package>
+<package name="2225">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt; - KEMET 2225 Reflow solder&lt;p&gt;
+Metric Code Size 5664</description>
+<wire x1="-2.725" y1="3.075" x2="2.725" y2="3.075" width="0.1016" layer="51"/>
+<wire x1="2.725" y1="-3.075" x2="-2.725" y2="-3.075" width="0.1016" layer="51"/>
+<wire x1="-3.81" y1="3.7306" x2="3.81" y2="3.7306" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.7306" x2="3.81" y2="-3.7307" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.7307" x2="-3.81" y2="-3.7307" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-3.7307" x2="-3.81" y2="3.7306" width="0.127" layer="21"/>
+<smd name="1" x="-2.54" y="0" dx="1.85" dy="6.8" layer="1"/>
+<smd name="2" x="2.54" y="0" dx="1.85" dy="6.8" layer="1"/>
+<text x="-3.4925" y="4.0005" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.4925" y="-4.953" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
+<rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
+<rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
+<rectangle x1="-4.064" y1="-3.937" x2="4.064" y2="3.937" layer="39"/>
+</package>
+<package name="3216">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<wire x1="-2.6988" y1="1.1907" x2="2.6988" y2="1.1907" width="0.127" layer="21"/>
+<wire x1="2.6988" y1="1.1907" x2="2.6988" y2="-1.1906" width="0.127" layer="21"/>
+<wire x1="2.6988" y1="-1.1906" x2="-2.6988" y2="-1.1906" width="0.127" layer="21"/>
+<wire x1="-2.6988" y1="-1.1906" x2="-2.6988" y2="1.1907" width="0.127" layer="21"/>
+<smd name="1" x="-1.5875" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.5875" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-2.6035" y="1.4605" size="0.889" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.6035" y="-2.413" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.7013" y1="-0.8509" x2="-0.9512" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.3" y1="-0.5001" x2="0.3" y2="0.5001" layer="35"/>
+<rectangle x1="-2.921" y1="-1.397" x2="2.921" y2="1.397" layer="39"/>
+</package>
+<package name="0201">
+<description>&lt;b&gt;SMD CHIP CAP&lt;/b&gt;&lt;p&gt;
+0201, grid 0.00625 inch</description>
+<wire x1="-0.195" y1="0.124" x2="0.195" y2="0.124" width="0.1016" layer="51"/>
+<wire x1="0.195" y1="-0.124" x2="-0.195" y2="-0.124" width="0.1016" layer="51"/>
+<wire x1="0" y1="-0.2223" x2="0" y2="0.2223" width="0.127" layer="21"/>
+<smd name="1" x="-0.3175" y="0" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.3175" y="0" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<text x="-0.6668" y="0.4129" size="0.6604" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.6668" y="-0.6986" size="0.381" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.304" y1="-0.2" x2="-0.15" y2="0.2" layer="51"/>
+<rectangle x1="0.15" y1="-0.2" x2="0.3088" y2="0.2" layer="51"/>
+<polygon width="0.127" layer="39">
+<vertex x="-0.381" y="0.254"/>
+<vertex x="0.508" y="0.254"/>
+<vertex x="0.508" y="-0.254"/>
+<vertex x="-0.508" y="-0.254"/>
+<vertex x="-0.508" y="0.254"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="CAP">
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<text x="1.27" y="0.127" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.1113" y1="-1.5875" x2="-0.4763" y2="1.5875" layer="94"/>
+<rectangle x1="0.4763" y1="-1.5875" x2="1.1113" y2="1.5875" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-4.826" y="0.508" size="0.8128" layer="94">&gt;SIZE</text>
+<text x="-4.826" y="-1.27" size="0.8128" layer="94">&gt;VOLT</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="94">&gt;COEF</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3216&gt;">
+<description>3216 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="3216">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SIZE" value="3216" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value=" " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2225&gt;">
+<description>2225 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="2225">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="2225" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2220&gt;" prefix="C">
+<description>2220 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="2220" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.47UF.630V.X7R" package="2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-9632-1-ND" constant="no"/>
+<attribute name="SIZE" value="2220" constant="no"/>
+<attribute name="VALUE" value="0.47uF" constant="no"/>
+<attribute name="VOLT" value="630V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.250V.X7T" package="2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7T" constant="no"/>
+<attribute name="DIGIKEY" value="445-6840-1-ND" constant="no"/>
+<attribute name="SIZE" value="2220" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.22UF.200V.X7R" package="2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="720-1153-1-ND" constant="no"/>
+<attribute name="SIZE" value="2220" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.100V.X7R" package="2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="478-9622-1-ND" constant="no"/>
+<attribute name="SIZE" value="2220" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2012&gt;">
+<description>2012 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="2012">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="2012" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1825&gt;">
+<description>1825 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="1825">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="1825" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1812&gt;" prefix="C">
+<description>1812 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0.1UF.500V.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="720-1130-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1UF"/>
+<attribute name="VOLT" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.18UF.250V.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="478-5569-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.18UF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.250V.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-7769-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TBD" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.47UF.200V.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-5524-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="VALUE" value="0.47uF" constant="no"/>
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.22UF.100V.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="478-1640-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1UF.1KV.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-6493-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLT" value="1kV" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.47UF.250V.X7R" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-2299-1-ND" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.47uF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1808&gt;">
+<description>1808 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="1808">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="1808" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1608&gt;">
+<description>1608 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="1608">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1210&gt;" prefix="C">
+<description>1210 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".22UF.250V.X7R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-4502-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".22UF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.100V.X7R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-4497-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.25V.X5R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3373-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.22UF.250V.X7R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-2296-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="VALUE" value="0.22UF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.500V.X7R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-6747-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VOLT" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100UF.16V.X5R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="311-2052-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="VALUE" value="100uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.16V.X85HTEMP" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X8R" constant="no"/>
+<attribute name="DIGIKEY" value="445-8857-1-ND" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1206&gt;" prefix="C">
+<description>1206 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TBD" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.250V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-3083-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100NF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100UF.6.3V.X5R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-6008-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="100UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1000PF.50V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC102BCT-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1000PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.2U.10V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="311-1199-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.2U"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".1UF.50V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC104BCT-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".1UF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".22UF.16V.TBD" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="TBD" constant="no"/>
+<attribute name="DIGIKEY" value="PCF1128CT-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value=".22UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".22UF.100V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-2283-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".22UF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".33UF.16V.TBD" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="TBD" constant="no"/>
+<attribute name="DIGIKEY" value="PCF1129CT-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value=".33UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.16V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1931CT-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.25V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-4028-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.25V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-2399-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.10V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-1332-1-ND " constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="4.7UF" constant="no"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.50V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-2994-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="4.7UF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100PF.500V.NPO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="311-1496-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="100pF" constant="no"/>
+<attribute name="VOLT" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF.10V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-3148-1-ND" constant="no"/>
+<attribute name="MPN" value="CL31B226MPHNNNE" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="22UF" constant="no"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22NF.250V.NPO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-11914-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="22NF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22NF.200V.NPO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-11576-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="22NF" constant="no"/>
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF.25V.X5R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-5527-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.OUF.100V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1838-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="1.0uF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.450V.X7T" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7T" constant="no"/>
+<attribute name="DIGIKEY" value="445-14838-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VOLT" value="450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.16V.X7R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-10526-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.50V.X5R" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2876-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".022UF.200V.NPO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-11576-1-ND" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value=".022uF" constant="no"/>
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0805&gt;" prefix="C">
+<description>0805 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="330PF.50V.NPO" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC331BNCT-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="330PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="680PF.50V.NPO" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC681BNCT-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="680PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4700PF.250V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3532-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="4700PF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4700PF.100V.C0G" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-2324-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="4700PF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".015UF.250V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-4453-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".015UF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".1UF.50V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1840CT-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".1UF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".22UF.100V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2949-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".22UF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".47UF.16V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1818CT-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".47UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.100V.X7S" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7S" constant="no"/>
+<attribute name="DIGIKEY" value="445-5205-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.25V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1354-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.16V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1358-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.10V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2175CT-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.25V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="587-1292-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.50V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-5968-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.10V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-7591-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7UF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.6.3V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="399-3138-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF.6.3V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2907-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="22UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.250V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2921-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10NF"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3UF-16V-X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-7582-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="3.3uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3UF-35V-X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-7553-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="3.3uF" constant="no"/>
+<attribute name="VOLT" value="35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TBD" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22.0UF.35V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-14428-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VOLT" value="35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DNS" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DNS" value="DNS" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="DNS" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.25V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-7631-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="4.7UF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220PF.1000V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-7148-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="220pF" constant="no"/>
+<attribute name="VOLT" value="1000V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.6.3V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-2396-1-ND " constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10UF" constant="no"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220NF.100V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2949-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VOLT" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.25V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2890-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="10UF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3NF.500V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-7153-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="3.3nF" constant="no"/>
+<attribute name="VOLT" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.250V.X7T" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7T" constant="no"/>
+<attribute name="DIGIKEY" value="445-7749-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100NF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3NF.450V.NPO" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-15323-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="3.3nF" constant="no"/>
+<attribute name="VOLT" value="450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1NF.100V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1169-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="1NF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="47NF.200V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-6971-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="47nF" constant="no"/>
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.25V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1099-1-ND" constant="no"/>
+<attribute name="MPN" value="CL21B104KACNNNC" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="100NF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.10V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-3417-1-ND" constant="no"/>
+<attribute name="MPN" value="LMK212AB7106MG-T" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="10UF" constant="no"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7NF.630V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-6737-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="4.7NF" constant="no"/>
+<attribute name="VOLT" value="630V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22NF.50V.NPO" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-6949-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="22NF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.35V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-10514-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics" constant="no"/>
+<attribute name="MPN" value="GRM21BR6YA106KE43L" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.50V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="311-1857-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1UF.250V.X7T" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7T" constant="no"/>
+<attribute name="DIGIKEY" value="445-7749-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="0.1UF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.500V.X7R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="709-1021-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VOLT" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220PF.450V.NPO" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-15541-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="220pF" constant="no"/>
+<attribute name="VOLT" value="450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.35V.X5R" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-6722-1-ND" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VOLT" value="35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0603&gt;" prefix="C">
+<description>0603 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0.1UF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1524-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.01UF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1520-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.01UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-1241-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC010CVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value=".25PF" constant="no"/>
+<attribute name="VALUE" value="1PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC030CVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value=".25PF" constant="no"/>
+<attribute name="VALUE" value="3PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC040CVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value=".25PF" constant="no"/>
+<attribute name="VALUE" value="4PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="6PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC060CVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value=".5PF" constant="no"/>
+<attribute name="VALUE" value="6PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10PF.100V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1941CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="0.5PF" constant="no"/>
+<attribute name="VALUE" value="10PF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="15PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="490-1407-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="15PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="18PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC180ACVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="18PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="478-1167-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="22PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="24PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-5053-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="24PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="27PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-1274-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="27PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="33PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-1241-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="33PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="39PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC390ACVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="39PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="47PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="478-1171-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="47PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="56PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC560ACVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="56PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="68PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC680ACVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="68PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="820PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC820ACVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="820PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-1281-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="100PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="150PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-1063-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="150PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1048-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="220PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="240PF.50V.C0G" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1436-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="240PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="180PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC181ACVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="180PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-1068-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="330PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="470PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="478-1183-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="470PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4700PF.100V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1303-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="4700PF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="560PF.50V.C0G" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-1290-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="560PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="680PF.50V.C0G" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-1291-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="680PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1NF.50V.COG" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="490-1451-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="1NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2NF.50V.COG" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="490-1458-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="2NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1000PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-1082-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1000PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-1082-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1500PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1774CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1500PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1800PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1775CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1800PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2000PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1458-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2000PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2200PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1309-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2200PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3300PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1778CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="3300PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4700PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1310-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="4700PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="18000PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1766CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="18000PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22000PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1312-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="22000PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1312-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="22NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-1091-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".022UF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC223BVCT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".022UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".022UF.100V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-2275-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".022UF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1UF.100V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3285-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1UF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".22UF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-5191-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".22UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="33NF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1769CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="33NF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330NF.10V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2274CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="330NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220NF.10V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1535-1-ND " constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="220NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="27NF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="478-1232-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="27NF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="27NF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-7891-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="27NF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="27NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="478-1232-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="27NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".047UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1758CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".047UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".068UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1760CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".068UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".082UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1761CT-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".082UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".1UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1532-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".1UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-1096-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100NF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.100V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3285-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100NF"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.10V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1543-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.25V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3897-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.10V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3899-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.16V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1034-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.6.3V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1552-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.16V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="587-2786-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.4V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="587-2248-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="10UF"/>
+<attribute name="VOLT" value="4V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.6.3V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3896-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="10UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.6.3V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2087-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="4.7uF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3UF.35V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-14167-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="3.3uF" constant="no"/>
+<attribute name="VOLT" value="35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1604-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VOLT" value="16" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-2984-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="587-3247-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VOLT" value="50v" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1UF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1005-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1UF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1000-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TBD" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DNS" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value=" " constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DNS" value="DNS" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="DNS" constant="no"/>
+<attribute name="VOLT" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="160PF.50V.COGNPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="490-1432-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="160pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-1087-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="4.7nF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-1047-1-ND " constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="2PF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2NF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="490-1459-1-ND " constant="no"/>
+<attribute name="SIZE" value="0604" constant="no"/>
+<attribute name="VALUE" value="2.2nF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1936-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VOLT" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.16V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="587-3238-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.47UF.6.3V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="399-9098-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="0.47uF" constant="no"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="47NF.16V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R"/>
+<attribute name="DIGIKEY" value="399-9097-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="47nF" constant="no"/>
+<attribute name="VOLT" value="16" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220NF.6.3V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-9046-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.200V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="399-5088-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name=".01UF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1311-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value=".01uF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1NF.250V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3526-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="1nF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF.6.3V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-7611-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="8PF.50V.COG" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="445-5043-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="8pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="470PF.50V.2%.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="490-11465-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="2%" constant="no"/>
+<attribute name="VALUE" value="470pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF.25V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-7202-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.100V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1925-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10NF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.25V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1520-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10NF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.100V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-172665-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10NF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.25.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2172-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10NF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1282-1-ND" constant="no"/>
+<attribute name="MPN" value="CL10C4R7CB8NNNC" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="4.7PF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-1049-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="10PF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.5PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="445-5006-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="0.5PF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="6.8PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="490-11477-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="6.8NF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5.6PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="399-7944-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="0.25pF" constant="no"/>
+<attribute name="VALUE" value="5.6pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2PF.250V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="712-1335-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="2PF" constant="no"/>
+<attribute name="VOLT" value="250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220PF.50V.NPO.2%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2231-1-ND" constant="no"/>
+<attribute name="MFR" value="samsung" constant="no"/>
+<attribute name="MPN" value="CL10C221GB8NCNC" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="2%" constant="no"/>
+<attribute name="VALUE" value="220pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.4NF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="490-3282-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="2.5nF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="20NF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1984-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="20NF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.2NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-13411-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="1.2nF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF.10V.X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1274-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3NF.25.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-10735-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="3.3nF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="820PF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-2117-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="820pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="82PF.100V.COG" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="445-12340-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="82pF" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.7NF.50V.X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1306-1-ND" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.7nF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0402&gt;" prefix="C">
+<description>0402 Bipolar Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="47NF.10V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1316-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="47NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="68NF.10V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1317-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="68NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1NF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1303-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1UF.16V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-4970-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1UF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-1247-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="100PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="120PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-1248-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="120PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="8.2PF.50V.NP0" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NP0" constant="no"/>
+<attribute name="DIGIKEY" value="311-1012-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="0.5p" constant="no"/>
+<attribute name="VALUE" value="8.2PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10PF.50V.NP0" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NP0" constant="no"/>
+<attribute name="DIGIKEY" value="445-1235-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1278-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="10PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="12PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1279-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="12PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="15PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1280-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="15PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1283-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="22PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="39PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1286-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="39PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="62PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-4906-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="62PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="68PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1289-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="68PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="160PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-3230-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="160PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1293-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="220PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="240PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-3233-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="240PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="270PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="445-1252-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="270PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1295-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="330PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="390PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1296-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="390PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="470PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1297-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="470PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="560PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-3238-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="560PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="560PF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1301-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="560PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="680PF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1302-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="680PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1800PF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3246-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1800PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.9NF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1307-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="3.9NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="33PF.50V.NP0" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NP0" constant="no"/>
+<attribute name="DIGIKEY" value="445-1241-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="33PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="24PF.50V.COG" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="COG" constant="no"/>
+<attribute name="DIGIKEY" value="445-4901-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="24PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="445-6850-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="10NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="39NF.50V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="478-1121-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="39NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="56NF.10V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2143CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="56NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.10V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="399-3027-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100NF.16V.X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3261-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100NF"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="47NF.50V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-7382-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="47NF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="470NF.10V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-3264-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="470NF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1UF.6.3V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-1320-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.6.3V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1444-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0UF.10V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="587-1454-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="1.0UF"/>
+<attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.6.3V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="490-5408-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7UF"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="47PF.50V.NPO" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="490-1287-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="47PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.5PF.50V.NPO" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC1R5CQCT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="1.5PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.5PF.50V.NPO" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC3R5CQCT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="3.5PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.2PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2192CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".05pF" constant="no"/>
+<attribute name="VALUE" value="0.2PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.4PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2196CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".05pF" constant="no"/>
+<attribute name="VALUE" value="0.4PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.8PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2204CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="0.8PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.9PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2206CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="0.9PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2252CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="1.0PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.1PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2209CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="1.1PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.2PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2210CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="1.2PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.6PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2214CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="1.6PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.8PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2216CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="1.8PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.4PF.25V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="PCC2254CT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".1pF" constant="no"/>
+<attribute name="VALUE" value="2.4PF"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.0PF.50V.NP0" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NP0" constant="no"/>
+<attribute name="DIGIKEY" value="490-3205-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".25pF" constant="no"/>
+<attribute name="VALUE" value="3.0PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5.0PF.50V.C0G" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="C0G" constant="no"/>
+<attribute name="DIGIKEY" value="490-1274-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".25pF" constant="no"/>
+<attribute name="VALUE" value="5.0PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="6.0PF.50V.NPO" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="PCC060CQCT-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=".5pF" constant="no"/>
+<attribute name="VALUE" value="6.0PF"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2UF.16V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1461-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TBD" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value=" " constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value=" " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DNS" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value=" " constant="no"/>
+<attribute name="DNS" value="DNS" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="VALUE" value="DNS" constant="no"/>
+<attribute name="VOLT" value=" " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF.16V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-6836-1-ND" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF.6.3V.X5R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-6834-1-ND" constant="no"/>
+<attribute name="MPN" value="CL05A226MQ5QUNC" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VOLT" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0201&gt;" prefix="C">
+<description>0201 ceramic capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0.1UF.16V.X5R" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-1319-1-ND" constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1UF.16V.X5R" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="1276-6798-1-ND" constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="12PF.16V.NPO" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="490-6114-1-ND" constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="VALUE" value="12pF" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10NF.25V.X5R" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X5R" constant="no"/>
+<attribute name="DIGIKEY" value="445-1790-1-ND" constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VOLT" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DNS" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="COEF" value=" " constant="no"/>
+<attribute name="DNS" value="DNS" constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="VALUE" value="DNS" constant="no"/>
+<attribute name="VOLT" value=" " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TBD" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value=" " constant="no"/>
+<attribute name="SIZE" value="0201" constant="no"/>
+<attribute name="VALUE" value="TBD" constant="no"/>
+<attribute name="VOLT" value=" " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

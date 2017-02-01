@@ -1,0 +1,421 @@
+# Library script
+# 
+# Exported from C:/Program Files/EAGLE-4.11r2/lbr/custom/drill-data.lbr at  7/14/2004 10:44:27a
+# 
+# EAGLE Version 4.11r2 Copyright (c) 1988-2004 CadSoft
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer   2 Route2;
+Layer   3 Route3;
+Layer   4 Route4;
+Layer   5 Route5;
+Layer   6 Route6;
+Layer   7 Route7;
+Layer   8 Route8;
+Layer   9 Route9;
+Layer  10 Route10;
+Layer  11 Route11;
+Layer  12 Route12;
+Layer  13 Route13;
+Layer  14 Route14;
+Layer  15 Route15;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Description '';
+
+Edit DRILL_DATA.dev;
+Prefix '';
+Description '\
+<H3 ALIGN=CENTER>Tapping &amp; Clearance Hole Information<BR>\n\
+\n\
+(Size #0 through 3/8 Diameter)</H3>\n\
+\n\
+<P><TABLE WIDTH="100%" BORDER="1" CELLSPACING="0" CELLPADDING="1">\n\
+<TR>\n\
+<TD ROWSPAN="3" COLSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">Machine Screw Size</TD>\n\
+<TD ROWSPAN="4" ALIGN="CENTER" BGCOLOR="#ffffff">Number of Threads Per Inch</TD>\n\
+<TD ROWSPAN="4" ALIGN="CENTER" BGCOLOR="#ffffff">Minor Dia.</TD>\n\
+<TD COLSPAN="4" ALIGN="CENTER" BGCOLOR="#ffffff">Tap Drills</TD>\n\
+<TD COLSPAN="4" ALIGN="CENTER" BGCOLOR="#ffffff">Clearance Hole Drills</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" COLSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff"><P>Aluminum, Brass &amp; Plastics</P>\n\
+\n\
+<P>75% Thread&nbsp;</TD>\n\
+<TD ROWSPAN="2" COLSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff"><P>Stainless Steel, Steels &amp; Iron</P>\n\
+\n\
+<P>50% Thread</TD>\n\
+<TD COLSPAN="4" ALIGN="CENTER" BGCOLOR="#ffffff">All Materials</TD></TR>\n\
+<TR>\n\
+<TD COLSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">Close Fit</TD>\n\
+<TD COLSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">Free Fit</TD></TR>\n\
+\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">No. or Dia.</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Major Dia.</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Drill Size</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Decimal Equiv.</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Drill Size</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Decimal Equiv.</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Drill Size</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Decimal Equiv.</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Drill Size</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">Decimal Equiv.</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">0</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0600</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">80</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0447</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">3/64</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0469</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">55</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0520</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">52</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0635</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">50</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0700</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">1</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.0730</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">64</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0538</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">53</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0595</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">1/16</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0625</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">48</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.0760</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">46</TD>\n\
+\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.0810</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">72</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0560</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">53</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0595</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">52</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0635</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">2</TD>\n\
+\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.0860</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">56</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0641</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">50</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0700</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">49</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0730</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">43</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.0890</TD>\n\
+\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">41</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.0960</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">64</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0668</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">50</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0700</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">48</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0760</TD></TR>\n\
+\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">3</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.0990</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">48</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0734</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">47</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0785</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">44</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0860</TD>\n\
+\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">37</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1040</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">35</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1100</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">56</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0771</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">45</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0820</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">43</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0890</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">4</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1120</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">40</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0813</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">43</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0890</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">41</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0960</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">32</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1160</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">30</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1285</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">48</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0864</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">42</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0935</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">40</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0980</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">5</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1250</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">40</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0943</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">38</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1015</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">7/64</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1094</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">30</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1285</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">29</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1360</TD></TR>\n\
+<TR>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">44</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.0971</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">37</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1040</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">35</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1100</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">6</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1380</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.0997</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">36</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1065</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1160</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">27</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1440</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">25</TD>\n\
+\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1495</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">40</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1073</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">33</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1130</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">31</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1200</TD></TR>\n\
+\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">8</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1640</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1257</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">29</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1360</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">27</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1440</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">18</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1695</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">16</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#ffffff">.1770</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">36</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1299</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">29</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1360</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">26</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1470</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">10</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1900</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">24</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1389</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">25</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1495</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">20</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1610</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">9</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.1960</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">7</TD>\n\
+<TD ROWSPAN="2" ALIGN="CENTER" BGCOLOR="#cccccc">.2010</TD></TR>\n\
+<TR>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1517</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">21</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1590</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">18</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1695</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">12</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">.2160</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">24</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1649</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">16</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1770</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">12</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1890</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">2</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">.2210</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">1</TD>\n\
+\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">.2280</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">28</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1722</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">14</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1820</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">10</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1935</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">32</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1777</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">13</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1850</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">9</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.1960</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">1/4</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">.2500</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">20</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.1887</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">7</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2010</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">7/32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2188</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">F</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">.2570</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">H</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">.2660</TD></TR>\n\
+\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">28</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2062</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">3</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2130</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">1</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2280</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2117</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">7/32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2188</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">1</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2280</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">5/16</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">.3125</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">18</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2443</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">F</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2570</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">J</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2770</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">P</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">.3230</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">Q</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#ffffff">.3320</TD></TR>\n\
+<TR>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">24</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2614</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">I</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2720</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">9/32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2812</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2742</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">9/32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2812</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">L</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#ffffff">.2900</TD></TR>\n\
+<TR>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">3/8</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">.3750</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">16</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.2983</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">5/16</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3125</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">Q</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3320</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">W</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">.3860</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">X</TD>\n\
+<TD ROWSPAN="3" ALIGN="CENTER" BGCOLOR="#cccccc">.3970</TD></TR>\n\
+<TR>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">24</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3239</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">Q</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3320</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">S</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3480</TD></TR>\n\
+<TR>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3367</TD>\n\
+\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">11/32</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3438</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">T</TD>\n\
+<TD WIDTH="8%" ALIGN="CENTER" BGCOLOR="#cccccc">.3580</TD></TR>\n\
+</TABLE>';
+Value Off;
+Grid inch;
