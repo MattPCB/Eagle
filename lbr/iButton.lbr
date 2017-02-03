@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DS9094F-TH">
+<circle x="0" y="0" radius="9.525" width="0.127" layer="21"/>
+<pad name="GND" x="-11.25" y="0" drill="0.97"/>
+<pad name="DAT" x="5.45" y="0" drill="0.97"/>
+<circle x="0" y="0" radius="8.9" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="7.7" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.40208125" width="0.127" layer="21"/>
+<wire x1="-8" y1="5.3" x2="-8.052690625" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-8.052690625" y1="5.3" x2="-8.34105" y2="5.257521875" width="0.127" layer="21" curve="16.759766"/>
+<wire x1="-8.34105" y1="5.257521875" x2="-13.133359375" y2="3.8143125" width="0.127" layer="21"/>
+<wire x1="-13.133359375" y1="3.8143125" x2="-13.845" y2="2.856790625" width="0.127" layer="21" curve="73.240234"/>
+<wire x1="-13.845" y1="2.856790625" x2="-13.845" y2="1.045" width="0.127" layer="21"/>
+<wire x1="-13.845" y1="1.045" x2="-13.8" y2="1" width="0.127" layer="21"/>
+<wire x1="-13.8" y1="1" x2="-12.2" y2="1" width="0.127" layer="21"/>
+<wire x1="-12.2" y1="1" x2="-12.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-12.2" y1="-1" x2="-13.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-13.8" y1="-1" x2="-13.845" y2="-1.045" width="0.127" layer="21"/>
+<wire x1="-13.845" y1="-1.045" x2="-13.845" y2="-2.849409375" width="0.127" layer="21"/>
+<wire x1="-13.845" y1="-2.849409375" x2="-13.124275" y2="-3.809621875" width="0.127" layer="21" curve="73.783082"/>
+<wire x1="-13.124275" y1="-3.809621875" x2="-8" y2="-5.3" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-7.9" y="5.4"/>
+<vertex x="-7" y="6.6"/>
+<vertex x="-5.6" y="7.8"/>
+<vertex x="-4.1" y="8.7"/>
+<vertex x="-2.5" y="9.3"/>
+<vertex x="-0.8" y="9.6"/>
+<vertex x="0.6" y="9.6"/>
+<vertex x="2.3" y="9.3"/>
+<vertex x="4" y="8.8"/>
+<vertex x="5.6" y="7.8"/>
+<vertex x="7" y="6.6"/>
+<vertex x="8.3" y="4.9"/>
+<vertex x="9.2" y="3"/>
+<vertex x="9.6" y="1.4"/>
+<vertex x="9.6" y="-0.6"/>
+<vertex x="9.4" y="-2.2"/>
+<vertex x="8.7" y="-4"/>
+<vertex x="7.7" y="-5.7"/>
+<vertex x="6.3" y="-7.2"/>
+<vertex x="5.4" y="-8"/>
+<vertex x="4" y="-8.7"/>
+<vertex x="2.5" y="-9.3"/>
+<vertex x="1" y="-9.6"/>
+<vertex x="-0.2" y="-9.6"/>
+<vertex x="-1" y="-9.6"/>
+<vertex x="-2.6" y="-9.3"/>
+<vertex x="-4.5" y="-8.5"/>
+<vertex x="-6" y="-7.5"/>
+<vertex x="-7.3" y="-6.3"/>
+<vertex x="-7.9" y="-5.6"/>
+<vertex x="-13.6" y="-3.9"/>
+<vertex x="-14" y="-3.2"/>
+<vertex x="-14" y="-0.9"/>
+<vertex x="-14" y="1.6"/>
+<vertex x="-14" y="3.5"/>
+<vertex x="-14" y="3.7"/>
+<vertex x="-8.1" y="5.5"/>
+</polygon>
+<text x="-13.8" y="5.8" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="IBHOLDER">
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="GND" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="DATA" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-10.16" y="2.54" size="1.778" layer="94">GND</text>
+<text x="5.08" y="2.54" size="1.778" layer="94">DATA</text>
+<text x="0" y="0" size="1.778" layer="94" align="center">+</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS9094F" prefix="B">
+<description>iButton Holder</description>
+<gates>
+<gate name="G$1" symbol="IBHOLDER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TH" package="DS9094F-TH">
+<connects>
+<connect gate="G$1" pin="DATA" pad="DAT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="DS9094F+-ND" constant="no"/>
+<attribute name="MFR" value="Maxim" constant="no"/>
+<attribute name="MPN" value="DS9094F+" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
