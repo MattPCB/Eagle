@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -471,6 +471,7 @@
 <attribute name="DIGIKEY" value="255-3913-1-ND" constant="no"/>
 <attribute name="MFR" value="Panasonic" constant="no"/>
 <attribute name="MPN" value="AQY280SX" constant="no"/>
+<attribute name="P1I" value="o" constant="no"/>
 </technology>
 </technologies>
 </device>

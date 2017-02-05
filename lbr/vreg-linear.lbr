@@ -2918,6 +2918,7 @@ TO-92 and SOIC 8 pin packages&lt;br&gt;
 <attribute name="DIGIKEY" value="296-40922-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS70919DBVT" constant="no"/>
+<attribute name="P1I" value=" " constant="no"/>
 <attribute name="VOLT" value="1.9V" constant="no"/>
 </technology>
 </technologies>
