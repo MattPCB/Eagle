@@ -1191,6 +1191,20 @@ TOP     BOT</text>
 <text x="-2.159" y="-1.524" size="0.8" layer="27">&gt;VALUE</text>
 <text x="-3.175" y="2.032" size="0.7112" layer="25" ratio="28" rot="R90">&gt;P1I</text>
 </package>
+<package name="SMD-1X5">
+<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-1.27" x2="-6.35" y2="-1.27" width="0.127" layer="21"/>
+<text x="-6.477" y="1.524" size="0.889" layer="25">&gt;NAME</text>
+<rectangle x1="-6.35" y1="-1.27" x2="6.35" y2="1.27" layer="39"/>
+<circle x="-5.08" y="0" radius="1.27" width="0.127" layer="21"/>
+<smd name="P$1" x="-5.08" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="P$2" x="-2.54" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="P$3" x="0" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="P$4" x="2.54" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="P$5" x="5.08" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HDR-1X1">
@@ -2440,6 +2454,20 @@ TOP     BOT</text>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="SMD-1X5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DNS" value="DNS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
