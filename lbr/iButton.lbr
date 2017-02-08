@@ -73,8 +73,8 @@
 <packages>
 <package name="DS9094F-TH">
 <circle x="0" y="0" radius="9.525" width="0.127" layer="21"/>
-<pad name="GND" x="-11.25" y="0" drill="0.97"/>
-<pad name="DAT" x="5.45" y="0" drill="0.97"/>
+<pad name="GND" x="-10.75" y="0" drill="0.97"/>
+<pad name="DAT" x="5.95" y="0" drill="0.97"/>
 <circle x="0" y="0" radius="8.9" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="7.7" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="2.40208125" width="0.127" layer="21"/>
@@ -139,11 +139,11 @@
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <pin name="GND" x="-7.62" y="0" visible="off" length="short"/>
 <pin name="DATA" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<text x="5.08" y="-2.54" size="1.778" layer="94">GND</text>
-<text x="-12.7" y="-2.54" size="1.778" layer="94">DATA</text>
+<text x="-10.16" y="-2.54" size="1.778" layer="94">GND</text>
+<text x="7.62" y="-2.54" size="1.778" layer="94">DATA</text>
 <text x="0" y="0" size="1.778" layer="94" align="center">+</text>
-<text x="-7.62" y="2.54" size="1.27" layer="94" rot="R180">-</text>
-<text x="7.62" y="2.54" size="1.778" layer="94" align="center">+</text>
+<text x="7.62" y="2.54" size="1.27" layer="94" rot="R180">-</text>
+<text x="-7.62" y="2.54" size="1.778" layer="94" align="center">+</text>
 </symbol>
 </symbols>
 <devicesets>

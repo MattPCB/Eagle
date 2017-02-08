@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -422,6 +422,30 @@
 <wire x1="5.3" y1="-3.2" x2="0.71" y2="-3.2" width="0.127" layer="21"/>
 <wire x1="7.84" y1="-3.2" x2="7.08" y2="-3.2" width="0.127" layer="21"/>
 </package>
+<package name="1041880210">
+<smd name="A1" x="-5.75" y="2" dx="3.5" dy="2" layer="1"/>
+<smd name="B1" x="-5.75" y="-2" dx="3.5" dy="2" layer="1"/>
+<smd name="B2" x="3.5" y="-2" dx="6" dy="2" layer="1"/>
+<smd name="A2" x="3.5" y="2" dx="6" dy="2" layer="1"/>
+<wire x1="-5.9" y1="3.95" x2="5.9" y2="3.95" width="0.127" layer="21"/>
+<wire x1="5.9" y1="3.95" x2="5.9" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="5.9" y1="-3.95" x2="-5.9" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="-5.9" y1="-3.95" x2="-5.9" y2="3.95" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-6" y="4.1"/>
+<vertex x="6" y="4.1"/>
+<vertex x="6" y="-4"/>
+<vertex x="-6" y="-4"/>
+</polygon>
+<text x="-5.7" y="4.3" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-3.276" y="-2.605" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-1.778" y="-0.254" size="0.6096" layer="21">Wire Insert</text>
+<circle x="5.207" y="0.508" radius="0.179603125" width="0.127" layer="21"/>
+<circle x="5.207" y="-0.508" radius="0.179603125" width="0.127" layer="21"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0" x2="4.064" y2="0.254" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0" x2="4.064" y2="-0.254" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2T">
@@ -827,6 +851,27 @@
 <attribute name="DIGIKEY" value="ED10565-ND" constant="no"/>
 <attribute name="MFR" value="On Shore Technology" constant="no"/>
 <attribute name="MPN" value="OSTVN06A150" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1041880210" prefix="J">
+<description>CONN SSL RCPT 2POS 4MM SMD</description>
+<gates>
+<gate name="G$1" symbol="2T" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="1041880210">
+<connects>
+<connect gate="G$1" pin="1" pad="A1 A2"/>
+<connect gate="G$1" pin="2" pad="B1 B2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WM10425CT-ND" constant="no"/>
+<attribute name="MFR" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="1041880210" constant="no"/>
 </technology>
 </technologies>
 </device>
