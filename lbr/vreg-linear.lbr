@@ -2923,6 +2923,23 @@ TO-92 and SOIC 8 pin packages&lt;br&gt;
 </technology>
 </technologies>
 </device>
+<device name="2.5" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-40923-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TPS70925DBVR" constant="no"/>
+<attribute name="P1I" value=" " constant="no"/>
+<attribute name="VOLT" value="2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
