@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -191,7 +191,7 @@
 <gate name="G$1" symbol="FPC-30P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SFV30R-3STBE1HLF">
+<device name="TOP" package="SFV30R-3STBE1HLF">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -227,7 +227,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="609-5203-1-ND" constant="no"/>
+<attribute name="DIGIKEY" value="609-5204-1-ND" constant="no"/>
 <attribute name="MFR" value="amphenol FCI" constant="no"/>
 <attribute name="MPN" value="SFV30R-3STBE1HLF" constant="no"/>
 </technology>
