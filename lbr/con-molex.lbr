@@ -602,6 +602,52 @@
 <wire x1="0" y1="-5.1" x2="0" y2="-6.6" width="0.127" layer="21"/>
 <wire x1="-4" y1="-5.9" x2="4" y2="-5.9" width="0.127" layer="21"/>
 </package>
+<package name="1722871102">
+<pad name="1" x="-1.75" y="0" drill="1.02"/>
+<pad name="2" x="1.75" y="0" drill="1.02"/>
+<hole x="-4.25" y="-0.63" drill="2.3"/>
+<hole x="4.25" y="-0.63" drill="2.3"/>
+<wire x1="-5.3" y1="2.42" x2="-3.645" y2="2.42" width="0.127" layer="21"/>
+<wire x1="-3.645" y1="2.42" x2="-3.645" y2="5.4" width="0.127" layer="21"/>
+<wire x1="-3.645" y1="5.4" x2="3.645" y2="5.4" width="0.127" layer="21"/>
+<wire x1="3.645" y1="5.4" x2="3.645" y2="2.42" width="0.127" layer="21"/>
+<wire x1="3.645" y1="2.42" x2="5.3" y2="2.42" width="0.127" layer="21"/>
+<wire x1="5.3" y1="2.42" x2="5.3" y2="-2.93" width="0.127" layer="21"/>
+<wire x1="5.3" y1="-2.93" x2="-5.3" y2="-2.93" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="-2.93" x2="-5.3" y2="2.42" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-3.75" y="5.5"/>
+<vertex x="3.75" y="5.5"/>
+<vertex x="3.75" y="2.6"/>
+<vertex x="5.4" y="2.6"/>
+<vertex x="5.4" y="-3.05"/>
+<vertex x="-5.4" y="-3.05"/>
+<vertex x="-5.4" y="2.55"/>
+<vertex x="-3.7" y="2.55"/>
+</polygon>
+<text x="6.4936" y="-2.8508" size="0.8128" layer="25" ratio="10" rot="SR90">&gt;NAME</text>
+<text x="-1.9484" y="1.8088" size="0.4" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-3.048" y1="1.3208" x2="-0.1524" y2="1.3208" width="0.127" layer="27"/>
+<wire x1="-0.1524" y1="1.3208" x2="0.1524" y2="1.3208" width="0.127" layer="27"/>
+<wire x1="0.1524" y1="1.3208" x2="3.048" y2="1.3208" width="0.127" layer="27"/>
+<wire x1="3.048" y1="1.3208" x2="3.048" y2="-1.1684" width="0.127" layer="27"/>
+<wire x1="3.048" y1="-1.1684" x2="0.1524" y2="-1.1684" width="0.127" layer="27"/>
+<wire x1="0.1524" y1="-1.1684" x2="-0.1524" y2="-1.1684" width="0.127" layer="27"/>
+<wire x1="-0.1524" y1="-1.1684" x2="-2.4384" y2="-1.1684" width="0.127" layer="27"/>
+<wire x1="-2.4384" y1="-1.1684" x2="-2.4384" y2="-1.6256" width="0.127" layer="27"/>
+<wire x1="-2.4384" y1="-1.6256" x2="-3.048" y2="-1.6256" width="0.127" layer="27"/>
+<wire x1="-3.048" y1="-1.6256" x2="-3.048" y2="1.3208" width="0.127" layer="27"/>
+<wire x1="-0.1524" y1="1.3208" x2="-0.1524" y2="-1.1684" width="0.127" layer="27"/>
+<wire x1="0.1524" y1="1.3208" x2="0.1524" y2="-1.1684" width="0.127" layer="27"/>
+<wire x1="-3.048" y1="1.3208" x2="-3.048" y2="4.7752" width="0.127" layer="27"/>
+<wire x1="-3.048" y1="4.7752" x2="-0.762" y2="4.7752" width="0.127" layer="27"/>
+<wire x1="-0.762" y1="4.7752" x2="0.762" y2="4.7752" width="0.127" layer="27"/>
+<wire x1="0.762" y1="4.7752" x2="3.048" y2="4.7752" width="0.127" layer="27"/>
+<wire x1="3.048" y1="4.7752" x2="3.048" y2="1.3208" width="0.127" layer="27"/>
+<wire x1="-0.762" y1="4.7752" x2="-0.762" y2="4.5212" width="0.127" layer="27"/>
+<wire x1="-0.762" y1="4.5212" x2="0.762" y2="4.5212" width="0.127" layer="27"/>
+<wire x1="0.762" y1="4.5212" x2="0.762" y2="4.7752" width="0.127" layer="27"/>
+</package>
 </packages>
 <symbols>
 <symbol name="39-30-3047">
@@ -1001,6 +1047,27 @@
 <attribute name="DIGIKEY" value="WM14506-ND" constant="no"/>
 <attribute name="MFR" value="MOLEX" constant="no"/>
 <attribute name="MPN" value="0026013128" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="172287-1102">
+<description>ULTRAFIT 2-POS 3.5mmPITCH TH VERT</description>
+<gates>
+<gate name="G$1" symbol="39-30-1021" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1722871102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WM11701-ND" constant="no"/>
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="1722871102" constant="no"/>
 </technology>
 </technologies>
 </device>
