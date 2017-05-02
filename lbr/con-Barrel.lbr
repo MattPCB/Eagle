@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -137,6 +137,58 @@
 <text x="1.5" y="5" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.5" y="-3.75" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SJ1-3525NG">
+<hole x="3.5" y="0" drill="1.2"/>
+<wire x1="-6" y1="2.7" x2="-6" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="0.9" x2="-6" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-0.9" x2="-6" y2="-2" width="0.127" layer="21"/>
+<wire x1="-5" y1="6" x2="6" y2="6" width="0.127" layer="21"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="-4.9" y2="-6" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="-6" x2="-4.9" y2="-4.9" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="-4.9" x2="-6" y2="-4.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-4.9" x2="-6" y2="-2" width="0.127" layer="21"/>
+<wire x1="-6" y1="-2" x2="-7.9" y2="-2" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-2" x2="-8" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-8" y1="-1.9" x2="-8" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-8" y1="-0.8" x2="-8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-8" y1="0.8" x2="-8" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-8" y1="1.9" x2="-7.9" y2="2" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="2" x2="-6" y2="2" width="0.127" layer="21"/>
+<wire x1="-6" y1="2" x2="-6" y2="4.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="4.9" x2="-5" y2="4.9" width="0.127" layer="21"/>
+<wire x1="-5" y1="4.9" x2="-5" y2="6" width="0.127" layer="21"/>
+<text x="-5.1" y="-3.1" size="0.7" layer="49" rot="R90">BOARD EDGE</text>
+<hole x="-4" y="5" drill="1.2"/>
+<hole x="-1.5" y="5" drill="1.2"/>
+<hole x="-4" y="-5" drill="1.2"/>
+<hole x="-1.5" y="-5" drill="1.2"/>
+<pad name="3" x="3.5" y="-5" drill="1.5"/>
+<pad name="5" x="3.5" y="-2.5" drill="1.5"/>
+<pad name="4" x="3.5" y="2.5" drill="1.5"/>
+<pad name="2" x="3.5" y="5" drill="1.5"/>
+<pad name="1" x="-1.5" y="0" drill="1.5"/>
+<polygon width="0.127" layer="39">
+<vertex x="-5.1" y="6.1"/>
+<vertex x="6.1" y="6.1"/>
+<vertex x="6.1" y="-6.1"/>
+<vertex x="-5" y="-6.1"/>
+<vertex x="-5" y="-5"/>
+<vertex x="-6.1" y="-5"/>
+<vertex x="-6.1" y="-2.1"/>
+<vertex x="-7.9" y="-2.1"/>
+<vertex x="-8.1" y="-1.9"/>
+<vertex x="-8.1" y="1.9"/>
+<vertex x="-7.9" y="2.1"/>
+<vertex x="-6.1" y="2.1"/>
+<vertex x="-6.1" y="5"/>
+<vertex x="-5.1" y="5"/>
+</polygon>
+<wire x1="-8" y1="0.8" x2="-7.9" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="0.9" x2="-6" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-8" y1="-0.8" x2="-7.9" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-0.9" x2="-6" y2="-0.9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PJ3-1S">
@@ -167,6 +219,69 @@
 <vertex x="-0.9525" y="1.4288"/>
 <vertex x="-0.3175" y="1.4288"/>
 </polygon>
+</symbol>
+<symbol name="SJ1">
+<wire x1="-5.08" y1="2.54" x2="-8.89" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="2.54" x2="-9.525" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-9.525" y1="1.27" x2="-10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.715" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.715" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="6.35" x2="-5.715" y2="5.715" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="5.715" x2="-5.715" y2="4.445" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="4.445" x2="-5.715" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="5.715" x2="-11.43" y2="5.715" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="4.445" x2="-11.43" y2="4.445" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="4.445" x2="-11.43" y2="5.715" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.715" y1="0" x2="-5.715" y2="2.3813" width="0.1524" layer="94"/>
+<wire x1="-5.715" y1="2.3813" x2="-6.0325" y2="1.4288" width="0.1524" layer="94"/>
+<wire x1="-6.0325" y1="1.4288" x2="-5.3975" y2="1.4288" width="0.1524" layer="94"/>
+<wire x1="-5.3975" y1="1.4288" x2="-5.715" y2="2.3813" width="0.1524" layer="94"/>
+<text x="-15.24" y="10.414" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-16.51" y="-8.128" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+<pin name="1SLEEVE" x="0" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="5RINGSW" x="0" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="3RING" x="0" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.715" y="2.3813"/>
+<vertex x="-6.0325" y="1.4288"/>
+<vertex x="-5.3975" y="1.4288"/>
+</polygon>
+<wire x1="-5.08" y1="-5.08" x2="-8.89" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-5.08" x2="-9.525" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-9.525" y1="-3.81" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.715" y1="-2.54" x2="-5.715" y2="-4.9213" width="0.1524" layer="94"/>
+<wire x1="-5.715" y1="-4.9213" x2="-6.0325" y2="-3.9688" width="0.1524" layer="94"/>
+<wire x1="-6.0325" y1="-3.9688" x2="-5.3975" y2="-3.9688" width="0.1524" layer="94"/>
+<wire x1="-5.3975" y1="-3.9688" x2="-5.715" y2="-4.9213" width="0.1524" layer="94"/>
+<pin name="4TIPSW" x="0" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2TIP" x="0" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.715" y="-4.9213"/>
+<vertex x="-6.0325" y="-3.9688"/>
+<vertex x="-5.3975" y="-3.9688"/>
+</polygon>
+<text x="-13.462" y="-6.604" size="1.143" layer="94" ratio="12" rot="R90">3.5 Audio Jack</text>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="1.016" x2="-15.24" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-1.016" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="2.54" x2="-17.78" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0.762" x2="-17.78" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-0.762" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0.762" x2="-17.526" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-17.526" y1="1.016" x2="-15.24" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-0.762" x2="-17.526" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-17.526" y1="-1.016" x2="-15.24" y2="-1.016" width="0.254" layer="94"/>
+<text x="-11.43" y="-6.604" size="1.016" layer="94" ratio="12" rot="R90">&gt;COLOR</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -204,6 +319,48 @@
 <attribute name="DIGIKEY" value="732-5934-ND" constant="no"/>
 <attribute name="MFR" value="Wurth" constant="no"/>
 <attribute name="MPN" value="694108301002" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ1-3525NG" prefix="J">
+<description>3.50mm (0.141", 1/8", Mini Plug) - Headphone Phone Jack Stereo Connector Solder</description>
+<gates>
+<gate name="G$1" symbol="SJ1" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="GRN" package="SJ1-3525NG">
+<connects>
+<connect gate="G$1" pin="1SLEEVE" pad="1"/>
+<connect gate="G$1" pin="2TIP" pad="2"/>
+<connect gate="G$1" pin="3RING" pad="3"/>
+<connect gate="G$1" pin="4TIPSW" pad="4"/>
+<connect gate="G$1" pin="5RINGSW" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="GREEN" constant="no"/>
+<attribute name="DIGIKEY" value="CP1-3525NG-GR-ND" constant="no"/>
+<attribute name="MFR" value="CUI Inc." constant="no"/>
+<attribute name="MPN" value="SJ1-3525NG-GR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PNK" package="SJ1-3525NG">
+<connects>
+<connect gate="G$1" pin="1SLEEVE" pad="1"/>
+<connect gate="G$1" pin="2TIP" pad="2"/>
+<connect gate="G$1" pin="3RING" pad="3"/>
+<connect gate="G$1" pin="4TIPSW" pad="4"/>
+<connect gate="G$1" pin="5RINGSW" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="PINK" constant="no"/>
+<attribute name="DIGIKEY" value="CP1-3525NG-PI-ND" constant="no"/>
+<attribute name="MFR" value="CUI Inc." constant="no"/>
+<attribute name="MPN" value="SJ1-3525NG-PI" constant="no"/>
 </technology>
 </technologies>
 </device>

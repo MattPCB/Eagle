@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5989,22 +5989,7 @@ DRL (R-PDSO-N6)</description>
 </devices>
 </deviceset>
 <deviceset name="PMLL4148L" prefix="D">
-<description>DIODE SWITCHING&lt;p&gt;
-75V 200MA LLDS
-
-&lt;p&gt; High speed
-&lt;p&gt;
-
-&lt;table border="1"&gt;
-&lt;tr&gt;
-&lt;td&gt;Symbol&lt;/td&gt;&lt;td&gt;Parameter&lt;/td&gt;&lt;td&gt;Min&lt;/td&gt;&lt;td&gt;Typ&lt;/td&gt;&lt;td&gt;Max&lt;/td&gt;&lt;td&gt;Unit&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Vr&lt;/td&gt;&lt;td&gt;reverse voltage&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;75&lt;/td&gt;&lt;td&gt;V&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;If&lt;/td&gt;&lt;td&gt;forward current&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;0.20&lt;/td&gt;&lt;td&gt;A&lt;/td&gt;
-&lt;/table&gt;</description>
+<description>DIODE SWITCHING100V 200MA LLDS</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -6018,6 +6003,20 @@ DRL (R-PDSO-N6)</description>
 <technology name="">
 <attribute name="DIGIKEY" value="568-1749-1-ND" constant="no"/>
 <attribute name="VOLT" value="75V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LC" package="SOD80C">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="LL4148FSCT-ND" constant="no"/>
+<attribute name="MFR" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="LL4148" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8465,6 +8464,50 @@ small signal diode
 <attribute name="I" value="5A" constant="no"/>
 <attribute name="MPN" value="SD560CTR" constant="no"/>
 <attribute name="VOLT" value="60V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BZX84C" prefix="D">
+<description>DIODE ZENER 8.2V 225MW</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="8V2" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="BZX84C8V2LT1GOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="BZX84C8V2LT1G" constant="no"/>
+<attribute name="VOLT" value="8.2V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMF24A" prefix="D">
+<description>TVS DIODE 24VWM 38.9VC</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123FL">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SMF24A-TPMSCT-ND" constant="no"/>
+<attribute name="MFR" value="Micro Commercial" constant="no"/>
+<attribute name="MPN" value="SMF24A-TP" constant="no"/>
+<attribute name="VOLT" value="24V" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -3655,7 +3655,7 @@ microPower, Single-Supply, CMOS Instrumentation Amplifier</description>
 Low Power Low Offset Voltage&lt;br&gt;
 with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <gates>
-<gate name="P" symbol="PWR+G" x="2.54" y="12.7" addlevel="request"/>
+<gate name="P" symbol="PWR+G" x="2.54" y="12.7" addlevel="always"/>
 <gate name="A" symbol="COMPARATOR-OC" x="20.32" y="12.7" swaplevel="1"/>
 <gate name="B" symbol="COMPARATOR-OC" x="43.18" y="12.7" swaplevel="1"/>
 <gate name="C" symbol="COMPARATOR-OC" x="17.78" y="-10.16" swaplevel="1"/>
@@ -3704,6 +3704,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGIKEY" value="LM339DR2GOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="LM339DR2G" constant="no"/>
 <attribute name="P1I" value="o"/>
 </technology>
 </technologies>
@@ -6559,6 +6562,32 @@ Wide-Bandwidth, Low-Power, Single-Supply Rail-to-Rail I/O Op Amps</description>
 <technology name="">
 <attribute name="DIGIKEY" value="576-1314-1-ND" constant="no"/>
 <attribute name="MPN" value="MIC6211YM5-TR" constant="no"/>
+<attribute name="P1I" value=" " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP6V31" prefix="U">
+<description>IC OPAMP ZRO-DRFT 300KHZ</description>
+<gates>
+<gate name="G$1" symbol="OPAMP" x="0" y="0"/>
+<gate name="G$2" symbol="PWR_V+-" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="SC70-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="1"/>
+<connect gate="G$1" pin="-IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$2" pin="V+" pad="5"/>
+<connect gate="G$2" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MCP6V31UT-E/LTCT-ND" constant="no"/>
+<attribute name="MFR" value="Microchip" constant="no"/>
+<attribute name="MPN" value="MCP6V31UT-E/LT" constant="no"/>
 <attribute name="P1I" value=" " constant="no"/>
 </technology>
 </technologies>

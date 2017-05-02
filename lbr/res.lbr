@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8917,6 +8917,23 @@
 </technology>
 </technologies>
 </device>
+<device name=".005.0.5.5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P19191CT-ND" constant="no"/>
+<attribute name="MFR" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="ERJ-6LWJR005V" constant="no"/>
+<attribute name="PWR" value=".5" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="0.005" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0805&gt;" prefix="R">
@@ -14319,6 +14336,39 @@
 <attribute name="DIGIKEY" value="BC2386-ND" constant="no"/>
 <attribute name="MFR" value="Vishay" constant="no"/>
 <attribute name="MPN" value="NTCALUG03A103H" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7K.3%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-6937-1-ND" constant="no"/>
+<attribute name="MFR" value="murata" constant="no"/>
+<attribute name="MPN" value="NCP15WB473E03RC" constant="no"/>
+<attribute name="PWR" value=" " constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value=" " constant="no"/>
+<attribute name="VALUE" value="47K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10K.1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="445-2550-1-ND" constant="no"/>
+<attribute name="MPN" value="NTCG103JF103FT1" constant="no"/>
+<attribute name="PWR" value=" " constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
 </technologies>

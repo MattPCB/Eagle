@@ -984,6 +984,16 @@
 <text x="-3.81" y="3.175" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
 <pin name="+1V9" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+8V2">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.508" layer="94"/>
+<text x="-3.81" y="0.635" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
+<pin name="+8V2" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="PVIN">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.508" layer="94"/>
+<text x="-2.54" y="0.635" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
+<pin name="PVIN" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -2313,6 +2323,42 @@ Do &lt;u&gt;not&lt;/u&gt; connect to a system V&lt;sub&gt;CATCH&lt;/sub&gt; supp
 <deviceset name="+1V9">
 <gates>
 <gate name="G$1" symbol="+1V9" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+8V2">
+<gates>
+<gate name="G$1" symbol="+8V2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VIN">
+<gates>
+<gate name="G$1" symbol="VIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PVIN">
+<gates>
+<gate name="G$1" symbol="PVIN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">

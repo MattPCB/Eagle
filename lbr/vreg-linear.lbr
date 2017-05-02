@@ -2942,6 +2942,30 @@ TO-92 and SOIC 8 pin packages&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="AP431" prefix="U">
+<description>IC VREF SHUNT ADJ SOT23</description>
+<gates>
+<gate name="G$1" symbol="ZDR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1%" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="AP431IBNTR-G1DICT-ND" constant="no"/>
+<attribute name="MFR" value="Diodes Inc." constant="no"/>
+<attribute name="MPN" value="AP431IBNTR-G1" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VOLT" value="2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

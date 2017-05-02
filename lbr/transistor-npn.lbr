@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1438,6 +1438,29 @@ complimentary to CMPTA56</description>
 <technology name="">
 <attribute name="DIGIKEY" value="2SC6144SGOS-ND" constant="no"/>
 <attribute name="MPN" value="2SC6144SG" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MUN2233" prefix="Q">
+<description>TRANS PREBIAS NPN 246MW</description>
+<gates>
+<gate name="G$1" symbol="NPN-DRIVER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-BEC">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="E"/>
+<connect gate="G$1" pin="E" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MMUN2233LT1GOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMUN2233LT1G" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
