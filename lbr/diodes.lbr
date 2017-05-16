@@ -8513,6 +8513,72 @@ small signal diode
 </device>
 </devices>
 </deviceset>
+<deviceset name="1N4002" prefix="D">
+<description>DIODE GEN PURP 100V 1A</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-10">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1N4002-TPMSCT-ND" constant="no"/>
+<attribute name="MFR" value="Micro Commercial" constant="no"/>
+<attribute name="MPN" value="1N4002-TP" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UCLAMP3301" prefix="D">
+<description>TVS DIODE 3.3VWM 8VC</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="UCLAMP3301HCT-ND" constant="no"/>
+<attribute name="MFR" value="Semtec" constant="no"/>
+<attribute name="MPN" value="UCLAMP3301H.TCT" constant="no"/>
+<attribute name="VOLT" value="3.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4448" prefix="D">
+<description>DIODE GEN PURP 75V 250MA</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1N4448WXTPMSCT-ND" constant="no"/>
+<attribute name="MFR" value="Micro Commercial" constant="no"/>
+<attribute name="MPN" value="1N4448WX-TP" constant="no"/>
+<attribute name="VOLT" value="75V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

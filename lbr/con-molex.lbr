@@ -648,6 +648,42 @@
 <wire x1="-0.762" y1="4.5212" x2="0.762" y2="4.5212" width="0.127" layer="27"/>
 <wire x1="0.762" y1="4.5212" x2="0.762" y2="4.7752" width="0.127" layer="27"/>
 </package>
+<package name="43650-0503">
+<pad name="M1" x="-8.15" y="0" drill="2.41"/>
+<pad name="M2" x="8.15" y="0" drill="2.41"/>
+<pad name="3" x="0" y="4.32" drill="1.02"/>
+<pad name="4" x="-3" y="4.32" drill="1.02"/>
+<pad name="5" x="-6" y="4.32" drill="1.02"/>
+<pad name="2" x="3" y="4.32" drill="1.02"/>
+<pad name="1" x="6" y="4.32" drill="1.02"/>
+<wire x1="-7.8" y1="-4.6" x2="7.9" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-4.6" x2="9.32" y2="-3.18" width="0.127" layer="21"/>
+<wire x1="9.32" y1="-3.18" x2="9.32" y2="5.3" width="0.127" layer="21"/>
+<wire x1="9.32" y1="5.3" x2="-9.32" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-9.32" y1="5.3" x2="-9.32" y2="-3.08" width="0.127" layer="21"/>
+<wire x1="-9.32" y1="-3.08" x2="-7.8" y2="-4.6" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-9.4" y="5.4"/>
+<vertex x="9.4" y="5.4"/>
+<vertex x="9.4" y="-3.2"/>
+<vertex x="7.9" y="-4.7"/>
+<vertex x="-7.8" y="-4.7"/>
+<vertex x="-9.4" y="-3.1"/>
+</polygon>
+<text x="-9.652" y="1.651" size="1.143" layer="25" ratio="12" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-0.254" size="0.635" layer="27" ratio="12">&gt;VALUE</text>
+<wire x1="-7.62" y1="-4.572" x2="-7.62" y2="-2.921" width="0.127" layer="27"/>
+<wire x1="-7.62" y1="-2.921" x2="-4.699" y2="-2.921" width="0.127" layer="27"/>
+<wire x1="-4.699" y1="-2.921" x2="-1.524" y2="-2.921" width="0.127" layer="27"/>
+<wire x1="-1.524" y1="-2.921" x2="1.651" y2="-2.921" width="0.127" layer="27"/>
+<wire x1="1.651" y1="-2.921" x2="4.699" y2="-2.921" width="0.127" layer="27"/>
+<wire x1="4.699" y1="-2.921" x2="7.747" y2="-2.921" width="0.127" layer="27"/>
+<wire x1="7.747" y1="-2.921" x2="7.747" y2="-4.572" width="0.127" layer="27"/>
+<wire x1="-4.699" y1="-2.921" x2="-4.699" y2="-4.572" width="0.127" layer="27"/>
+<wire x1="-1.524" y1="-2.921" x2="-1.524" y2="-4.572" width="0.127" layer="27"/>
+<wire x1="1.651" y1="-2.921" x2="1.651" y2="-4.572" width="0.127" layer="27"/>
+<wire x1="4.699" y1="-2.921" x2="4.699" y2="-4.572" width="0.127" layer="27"/>
+</package>
 </packages>
 <symbols>
 <symbol name="39-30-3047">
@@ -902,6 +938,18 @@
 <circle x="1.524" y="0" radius="1.016" width="0.254" layer="94"/>
 <circle x="1.524" y="-2.54" radius="1.016" width="0.254" layer="94"/>
 </symbol>
+<symbol name="HDR-1X5_W_MNT">
+<pin name="1" x="-5.08" y="10.16" length="short"/>
+<pin name="2" x="-5.08" y="5.08" length="short"/>
+<pin name="3" x="-5.08" y="0" length="short"/>
+<pin name="4" x="-5.08" y="-5.08" length="short"/>
+<pin name="5" x="-5.08" y="-10.16" length="short"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<pin name="MNT" x="0" y="-15.24" visible="pad" length="short" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="39-30-3047">
@@ -1068,6 +1116,32 @@
 <attribute name="DIGIKEY" value="WM11701-ND" constant="no"/>
 <attribute name="MFR" value="Molex" constant="no"/>
 <attribute name="MPN" value="1722871102" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="43650-0503" prefix="J">
+<description>5 Positions Header Connector 0.118" (3.00mm) Through Hole, Right Angle</description>
+<gates>
+<gate name="G$1" symbol="HDR-1X5_W_MNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="43650-0503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="MNT" pad="M1 M2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ASSOC" value="WM1848-ND" constant="no"/>
+<attribute name="DIGIKEY" value="WM1873-ND" constant="no"/>
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="43650-0503" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -797,6 +797,21 @@ chip</description>
 </technology>
 </technologies>
 </device>
+<device name="10UF.63V.X7R" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="X7R" constant="no"/>
+<attribute name="DIGIKEY" value="490-9971-1-ND" constant="no"/>
+<attribute name="MPN" value="GRM32ER71J106MA12L" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1206&gt;" prefix="C">
