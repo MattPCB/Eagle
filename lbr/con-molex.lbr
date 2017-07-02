@@ -684,6 +684,216 @@
 <wire x1="1.651" y1="-2.921" x2="1.651" y2="-4.572" width="0.127" layer="27"/>
 <wire x1="4.699" y1="-2.921" x2="4.699" y2="-4.572" width="0.127" layer="27"/>
 </package>
+<package name="0353170220">
+<pad name="2" x="0" y="-2.1" drill="1.778"/>
+<pad name="1" x="0" y="2.1" drill="1.778"/>
+<polygon width="0.127" layer="39">
+<vertex x="2.917" y="-5"/>
+<vertex x="1.8" y="-5"/>
+<vertex x="1.8" y="-6.6"/>
+<vertex x="-1.8" y="-6.6"/>
+<vertex x="-1.8" y="-5"/>
+<vertex x="-2.917" y="-5"/>
+<vertex x="-2.917" y="4.97"/>
+<vertex x="2.917" y="4.97"/>
+</polygon>
+<wire x1="2.7" y1="4.8" x2="2.7" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="2.7" y1="-4.8" x2="1.7" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-4.8" x2="1.7" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-6.4" x2="1.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-6.5" x2="-1.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-6.5" x2="-1.7" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-6.4" x2="-1.7" y2="-5.2" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-5.2" x2="-1.7" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-4.8" x2="-2.7" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-4.8" x2="-2.7" y2="4.8" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="4.8" x2="2.7" y2="4.8" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-5.2" x2="1.6" y2="-5.2" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-4.8" x2="1.7" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-6.4" x2="1.7" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="0.3" x2="2" y2="0.3" width="0.127" layer="21"/>
+<wire x1="2" y1="0.3" x2="2" y2="3.9" width="0.127" layer="21"/>
+<wire x1="2" y1="3.9" x2="-1.9" y2="3.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="3.9" x2="-1.9" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.3" x2="1.1" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.3" x2="2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.2" x2="2" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="2" y1="-3.8" x2="-1.9" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-3.8" x2="-1.9" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.2" x2="-1" y2="-0.3" width="0.127" layer="21"/>
+<text x="4.4" y="-5" size="1.27" layer="25" ratio="12" rot="R90">&gt;NAME</text>
+</package>
+<package name="0533980671">
+<wire x1="-6.125" y1="-1.1" x2="-4.625" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-4.625" y1="-1.1" x2="-4.625" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-4.625" y1="-0.2" x2="4.625" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="4.625" y1="-0.2" x2="4.625" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="4.625" y1="-1.1" x2="6.125" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="6.125" y1="-1.1" x2="6.125" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="6.125" y1="-3.85" x2="-6.125" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-6.125" y1="-3.85" x2="-6.125" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-5.9" y1="0.3" x2="-5.1" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-0.1" x2="-5.9" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-5.9" y1="-0.5" x2="-5.9" y2="0.3" width="0.127" layer="21"/>
+<smd name="1" x="-3.125" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="2" x="-1.875" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="3" x="-0.625" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="4" x="0.625" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="5" x="1.875" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="6" x="3.125" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="MNT1" x="-5.675" y="-2.75" dx="2.1" dy="3" layer="1" rot="R180"/>
+<smd name="MNT2" x="5.675" y="-2.75" dx="2.1" dy="3" layer="1"/>
+<text x="-3.9" y="-3.2" size="1.27" layer="25">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="-6.2" y="-1"/>
+<vertex x="-4.7" y="-1"/>
+<vertex x="-4.7" y="-0.1"/>
+<vertex x="-3.5" y="-0.1"/>
+<vertex x="-3.5" y="0.2"/>
+<vertex x="3.5" y="0.2"/>
+<vertex x="3.5" y="-0.1"/>
+<vertex x="4.7" y="-0.1"/>
+<vertex x="4.7" y="-1"/>
+<vertex x="6.2" y="-1"/>
+<vertex x="6.2" y="-4"/>
+<vertex x="-6.2" y="-4"/>
+</polygon>
+</package>
+<package name="0532610871">
+<wire x1="-5.85" y1="1.9" x2="5.85" y2="1.9" width="0.127" layer="21"/>
+<wire x1="5.85" y1="1.9" x2="5.85" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="5.85" y1="-2.3" x2="-5.85" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="-2.3" x2="-5.85" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="2.9" x2="-5.35" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5.35" y1="2.5" x2="-5.75" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="2.1" x2="-5.75" y2="2.9" width="0.127" layer="21"/>
+<smd name="1" x="-4.375" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="-3.125" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="3" x="-1.875" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="4" x="-0.625" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="5" x="0.625" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="6" x="1.875" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="MNT1" x="-6.725" y="-0.4" dx="1.7" dy="3" layer="1" rot="R180"/>
+<smd name="MNT2" x="6.725" y="-0.4" dx="1.7" dy="3" layer="1"/>
+<text x="-5.15" y="-0.7" size="1.27" layer="25">&gt;NAME</text>
+<smd name="7" x="3.125" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<smd name="8" x="4.375" y="2.5" dx="0.8" dy="1.6" layer="1"/>
+<polygon width="0.127" layer="39">
+<vertex x="-5.95" y="2"/>
+<vertex x="-4.75" y="2"/>
+<vertex x="-4.75" y="2.8"/>
+<vertex x="4.75" y="2.8"/>
+<vertex x="4.75" y="2"/>
+<vertex x="5.95" y="2"/>
+<vertex x="5.95" y="0.9"/>
+<vertex x="7.25" y="0.9"/>
+<vertex x="7.25" y="-2.1"/>
+<vertex x="5.95" y="-2.1"/>
+<vertex x="5.95" y="-2.4"/>
+<vertex x="-5.95" y="-2.4"/>
+<vertex x="-5.95" y="-2.1"/>
+<vertex x="-7.25" y="-2.1"/>
+<vertex x="-7.25" y="0.9"/>
+<vertex x="-5.95" y="0.9"/>
+</polygon>
+</package>
+<package name="0430450808-MICROFIT3.0-RA-2X4">
+<smd name="7" x="4.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<pad name="MNT" x="-6.65" y="0" drill="2.41" rot="R90"/>
+<pad name="MNT1" x="6.65" y="0" drill="2.41" rot="R90"/>
+<wire x1="-8.05" y1="5.31" x2="8.075" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-8.075" y1="5.3" x2="-8.075" y2="4" width="0.127" layer="21"/>
+<wire x1="-8.075" y1="3.95" x2="-8.075" y2="-2.85" width="0.127" layer="21"/>
+<wire x1="8.075" y1="5.31" x2="8.075" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-8.075" y1="-2.85" x2="-5.95" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="-4.6" x2="5.65" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="5.65" y1="-4.6" x2="8.075" y2="-2.7" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-5.15" y="5.55"/>
+<vertex x="-5.15" y="11.55"/>
+<vertex x="5.15" y="11.55"/>
+<vertex x="5.15" y="11.45"/>
+<vertex x="5.2" y="5.55"/>
+<vertex x="8.2" y="5.55"/>
+<vertex x="8.2" y="-2.75"/>
+<vertex x="5.65" y="-4.8"/>
+<vertex x="-6" y="-4.8"/>
+<vertex x="-8.15" y="-2.9"/>
+<vertex x="-8.15" y="5.55"/>
+</polygon>
+<text x="-6.55" y="6.1" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-2.15" y="-2" size="0.6096" layer="27">&gt;VALUE</text>
+<smd name="5" x="1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="-1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="1" x="-4.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="8" x="4.5" y="10.01" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="6" x="1.5" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="-1.5" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-4.5" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+</package>
+<package name="0430451008-MICROFIT3.0-RA-2X5">
+<smd name="7" x="3" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<pad name="MNT" x="-8.15" y="0" drill="2.41" rot="R90"/>
+<pad name="MNT1" x="8.15" y="0" drill="2.41" rot="R90"/>
+<wire x1="-9.55" y1="5.31" x2="9.575" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-9.575" y1="5.3" x2="-9.575" y2="4" width="0.127" layer="21"/>
+<wire x1="-9.575" y1="3.95" x2="-9.575" y2="-2.85" width="0.127" layer="21"/>
+<wire x1="9.575" y1="5.31" x2="9.575" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-9.575" y1="-2.85" x2="-7.45" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-7.45" y1="-4.6" x2="7.15" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="7.15" y1="-4.6" x2="9.575" y2="-2.7" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-6.65" y="5.55"/>
+<vertex x="-6.65" y="11.55"/>
+<vertex x="6.65" y="11.55"/>
+<vertex x="6.65" y="11.45"/>
+<vertex x="6.7" y="5.55"/>
+<vertex x="9.7" y="5.55"/>
+<vertex x="9.7" y="-2.75"/>
+<vertex x="7.15" y="-4.8"/>
+<vertex x="-7.5" y="-4.8"/>
+<vertex x="-9.65" y="-2.9"/>
+<vertex x="-9.65" y="5.55"/>
+</polygon>
+<text x="-8.05" y="6.1" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.65" y="-2" size="0.6096" layer="27">&gt;VALUE</text>
+<smd name="5" x="0" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="-3" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="1" x="-6" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="8" x="3" y="10.01" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="6" x="0" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="-3" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-6" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="9" x="6" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="10" x="6" y="10.01" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+</package>
+<package name="0430450208-MICROFIT3.0-RA-2X1">
+<pad name="MNT" x="-2.15" y="0" drill="2.41" rot="R90"/>
+<pad name="MNT1" x="2.15" y="0" drill="2.41" rot="R90"/>
+<wire x1="-3.55" y1="5.31" x2="3.575" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-3.575" y1="5.3" x2="-3.575" y2="4" width="0.127" layer="21"/>
+<wire x1="-3.575" y1="3.95" x2="-3.575" y2="-2.85" width="0.127" layer="21"/>
+<wire x1="3.575" y1="5.31" x2="3.575" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-3.575" y1="-2.85" x2="-1.45" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-4.6" x2="1.15" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-4.6" x2="3.575" y2="-2.7" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-0.65" y="5.55"/>
+<vertex x="-0.65" y="11.55"/>
+<vertex x="0.65" y="11.55"/>
+<vertex x="0.65" y="5.55"/>
+<vertex x="3.7" y="5.55"/>
+<vertex x="3.7" y="-2.75"/>
+<vertex x="1.15" y="-4.8"/>
+<vertex x="-1.5" y="-4.8"/>
+<vertex x="-3.65" y="-2.9"/>
+<vertex x="-3.65" y="5.55"/>
+</polygon>
+<text x="-2.05" y="6.1" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.65" y="-2" size="0.6096" layer="27">&gt;VALUE</text>
+<smd name="1" x="0" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="0" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="39-30-3047">
@@ -950,6 +1160,77 @@
 <wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
 <pin name="MNT" x="0" y="-15.24" visible="pad" length="short" rot="R90"/>
 </symbol>
+<symbol name="HDR-1X8_W_MNT">
+<circle x="1.778" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<wire x1="0" y1="11.938" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="3.556" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="3.556" y1="-10.16" x2="3.556" y2="11.938" width="0.254" layer="94"/>
+<wire x1="3.556" y1="11.938" x2="0" y2="11.938" width="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="10.16" visible="pad" length="short"/>
+<pin name="2" x="-2.54" y="7.62" visible="pad" length="short"/>
+<pin name="3" x="-2.54" y="5.08" visible="pad" length="short"/>
+<pin name="4" x="-2.54" y="2.54" visible="pad" length="short"/>
+<pin name="5" x="-2.54" y="0" visible="pad" length="short"/>
+<pin name="6" x="-2.54" y="-2.54" visible="pad" length="short"/>
+<pin name="MNT" x="2.54" y="-12.7" visible="pad" length="short" rot="R90"/>
+<text x="-0.254" y="12.446" size="1.27" layer="95">&gt;NAME</text>
+<circle x="1.778" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="1.778" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="1.778" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="1.778" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="1.778" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="1.778" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="1.778" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<pin name="7" x="-2.54" y="-5.08" visible="pad" length="short"/>
+<pin name="8" x="-2.54" y="-7.62" visible="pad" length="short"/>
+</symbol>
+<symbol name="CON-2X4-MNT">
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<pin name="MNT" x="0" y="-12.7" length="short" rot="R90"/>
+<text x="5.08" y="12.7" size="1.27" layer="95" rot="R180">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.016" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="7.62" length="short"/>
+<pin name="2" x="7.62" y="7.62" length="short" rot="R180"/>
+<pin name="3" x="-7.62" y="2.54" length="short"/>
+<pin name="4" x="7.62" y="2.54" length="short" rot="R180"/>
+<pin name="5" x="-7.62" y="-2.54" length="short"/>
+<pin name="6" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="7" x="-7.62" y="-7.62" length="short"/>
+<pin name="8" x="7.62" y="-7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="HDR-2X5-MNT">
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="10.16" length="short"/>
+<pin name="2" x="10.16" y="10.16" length="short" rot="R180"/>
+<pin name="3" x="-10.16" y="5.08" length="short"/>
+<pin name="4" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="5" x="-10.16" y="0" length="short"/>
+<pin name="6" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="7" x="-10.16" y="-5.08" length="short"/>
+<pin name="8" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="short"/>
+<pin name="10" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="MNT" x="0" y="-15.24" length="short" rot="R90"/>
+<text x="7.62" y="15.24" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="2.54" y="-15.24" size="1.016" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="HDR-2X1-MNT">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="MNT" x="-2.54" y="-7.62" length="short" rot="R90"/>
+<text x="5.08" y="5.08" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="39-30-3047">
@@ -1143,6 +1424,157 @@
 <attribute name="MFR" value="Molex" constant="no"/>
 <attribute name="MPN" value="43650-0503" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0353170220" prefix="J">
+<description>CONN HEADER 2POS VERT</description>
+<gates>
+<gate name="G$1" symbol="39-30-1021" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0353170220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WM13192-ND " constant="no"/>
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="0353170220" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0533980671" prefix="J">
+<description>CONN HEADER 6POS 1.25MM VERT SMD</description>
+<gates>
+<gate name="G$1" symbol="HDR-1X6_W_MNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0533980671">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="MNT" pad="MNT1 MNT2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WM7610CT-ND" constant="no"/>
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="0533980671" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0532610871" prefix="J">
+<description>CONN HEADER 8POS 1.25MM R/A SMD</description>
+<gates>
+<gate name="G$1" symbol="HDR-1X8_W_MNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0532610871">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="MNT" pad="MNT1 MNT2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WM7626CT-ND" constant="no"/>
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="0532610871" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0430450808-MICROFIT3.0-R/A2X4" prefix="J">
+<description>MICROFIT 3.0 RA HDR/CLIP DR 30AU</description>
+<gates>
+<gate name="G$1" symbol="CON-2X4-MNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0430450808-MICROFIT3.0-RA-2X4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="MNT" pad="MNT MNT1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value=" WM10731TR-ND " constant="no"/>
+<attribute name="MFR" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="0430450808" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0430451008-MICROFIT3.0-R/A2X5" prefix="J">
+<description>MICROFIT 3.0 RA HDR/CLIP DR 30AU</description>
+<gates>
+<gate name="G$1" symbol="HDR-2X5-MNT" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="0430451008-MICROFIT3.0-RA-2X5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="MNT" pad="MNT MNT1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WM10741CT-ND" constant="no"/>
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="0430451008" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0430450208-MICROFIT3.0-R/A2X1" prefix="J">
+<description>MICROFIT 3.0 RA HDR/CLIP DR 30AU</description>
+<gates>
+<gate name="G$1" symbol="HDR-2X1-MNT" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="0430450208-MICROFIT3.0-RA-2X1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="MNT" pad="MNT MNT1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

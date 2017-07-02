@@ -8579,6 +8579,50 @@ small signal diode
 </device>
 </devices>
 </deviceset>
+<deviceset name="S2B" prefix="D">
+<description>DIODE GEN PURP 100V 2A</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMB">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="S2BFSCT-ND" constant="no"/>
+<attribute name="MFR" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S2B" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S1B" prefix="D">
+<description>DIODE GEN PURP 100V 1A</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="S1BFSCT-ND" constant="no"/>
+<attribute name="MFR" value="Fairchild/ON semi" constant="no"/>
+<attribute name="MPN" value="S1B" constant="no"/>
+<attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

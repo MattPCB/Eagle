@@ -2995,7 +2995,7 @@ chip</description>
 <attribute name="DIGIKEY" value="445-1604-1-ND" constant="no"/>
 <attribute name="SIZE" value="0603" constant="no"/>
 <attribute name="VALUE" value="1uF" constant="no"/>
-<attribute name="VOLT" value="16" constant="no"/>
+<attribute name="VOLT" value="16V" constant="no"/>
 </technology>
 </technologies>
 </device>

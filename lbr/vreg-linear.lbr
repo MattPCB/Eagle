@@ -3006,6 +3006,28 @@ TO-92 and SOIC 8 pin packages&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="AP2120N" prefix="U">
+<description>IC REG LDO 3.3V 0.15A</description>
+<gates>
+<gate name="G$1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3V3" package="SOT23">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="AP2120N-3.3TRG1DICT-ND" constant="no"/>
+<attribute name="MPN" value="AP2120N-3.3TRG1" constant="no"/>
+<attribute name="VOLT" value="3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -79,7 +79,11 @@
 <wire x1="61.1632" y1="10.541" x2="67.3354" y2="4.3688" width="0" layer="20" curve="-90"/>
 <wire x1="67.3354" y1="4.3688" x2="67.3354" y2="0" width="0" layer="20"/>
 <wire x1="67.3354" y1="0" x2="122.301" y2="0" width="0" layer="20"/>
-<wire x1="122.301" y1="0" x2="122.301" y2="122.047" width="0" layer="20"/>
+<wire x1="122.301" y1="0" x2="122.301" y2="22.86" width="0" layer="20"/>
+<wire x1="122.301" y1="22.86" x2="115.951" y2="22.86" width="0" layer="20"/>
+<wire x1="115.951" y1="22.86" x2="115.951" y2="113.157" width="0" layer="20"/>
+<wire x1="115.951" y1="113.157" x2="122.301" y2="113.157" width="0" layer="20"/>
+<wire x1="122.301" y1="113.157" x2="122.301" y2="122.047" width="0" layer="20"/>
 <wire x1="122.301" y1="122.047" x2="67.3354" y2="122.047" width="0" layer="20"/>
 <wire x1="54.991" y1="122.047" x2="0" y2="122.047" width="0" layer="20"/>
 <wire x1="0" y1="122.047" x2="0" y2="0" width="0" layer="20"/>
@@ -130,8 +134,59 @@
 </package>
 </packages>
 <symbols>
+<symbol name="ENCLOSURE">
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0.508" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="3.81" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="0.508" x2="-4.064" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="0.508" x2="-4.064" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-0.254" x2="-4.064" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="-0.254" x2="-4.064" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="-1.016" x2="-5.588" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-1.016" x2="-5.588" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0.508" x2="-5.588" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="0.508" x2="-5.588" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="3.302" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="3.302" y1="-1.27" x2="2.794" y2="-1.778" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.794" y1="-1.778" x2="2.286" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.286" y1="-1.27" x2="2.794" y2="-0.762" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.794" y1="1.524" x2="3.302" y2="1.016" width="0.254" layer="94" curve="-90"/>
+<wire x1="3.302" y1="1.016" x2="2.794" y2="0.508" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.794" y1="0.508" x2="2.286" y2="1.016" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.286" y1="1.016" x2="2.794" y2="1.524" width="0.254" layer="94" curve="-90"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="HAM1598" prefix="B">
+<description>Hammond Mfg Enclosure</description>
+<gates>
+<gate name="G$1" symbol="ENCLOSURE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BBK" package="HAMMOND_1598BBK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BSGYPBK" package="HAMMOND_1598BBK">
+<technologies>
+<technology name="">
+<attribute name="MFR" value="Hammond" constant="no"/>
+<attribute name="MOUSER" value="546-1598BSGYPBK" constant="no"/>
+<attribute name="MPN" value="1598BSGYPBK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

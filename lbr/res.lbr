@@ -8934,6 +8934,40 @@
 </technology>
 </technologies>
 </device>
+<device name="8.2.0.25.5%.PW" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="RHM8.2DCT-ND" constant="no"/>
+<attribute name="MFR" value="Rohm" constant="no"/>
+<attribute name="MPN" value="ESR03EZPJ8R2" constant="no"/>
+<attribute name="PWR" value="0.25" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="8.2PW" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.0.25.5%.PW" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="RHM2DCT-ND" constant="no"/>
+<attribute name="MFR" value="Rohm" constant="no"/>
+<attribute name="MPN" value="ESR03EZPJ2R0" constant="no"/>
+<attribute name="PWR" value="0.25" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="2 PW " constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0805&gt;" prefix="R">
