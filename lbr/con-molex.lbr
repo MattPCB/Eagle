@@ -1574,7 +1574,9 @@
 <connect gate="G$1" pin="MNT" pad="MNT MNT1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="WM10685CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

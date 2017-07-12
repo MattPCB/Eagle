@@ -4719,6 +4719,53 @@ DRL (R-PDSO-N6)</description>
 <text x="-5.08" y="7.874" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-9.652" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
+<symbol name="SHTKY_CC">
+<wire x1="0.3175" y1="2.54" x2="0.3175" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.5875" x2="-0.9525" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="2.54" x2="-2.8575" y2="3.4925" width="0.254" layer="94"/>
+<wire x1="-2.8575" y1="3.4925" x2="-2.8575" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.8575" y1="2.54" x2="-2.8575" y2="1.5875" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="3.5433" x2="-0.9525" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="2.54" x2="-0.9525" y2="1.5367" width="0.254" layer="94"/>
+<wire x1="-2.8575" y1="-3.4925" x2="-0.9525" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="-2.54" x2="-2.8575" y2="-1.5875" width="0.254" layer="94"/>
+<wire x1="-2.8575" y1="-1.5875" x2="-2.8575" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.8575" y1="-2.54" x2="-2.8575" y2="-3.4925" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="-1.5367" x2="-0.9525" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="-2.54" x2="-0.9525" y2="-3.4925" width="0.254" layer="94"/>
+<wire x1="-2.8575" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="-2.54" x2="0.3175" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.9525" y1="2.54" x2="0.3175" y2="2.54" width="0.1524" layer="94"/>
+<circle x="0.3175" y="0" radius="0.254" width="0.4064" layer="94"/>
+<pin name="A1" x="-5.08" y="2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A2" x="-5.08" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.8575" y="3.4925"/>
+<vertex x="-0.9525" y="2.54"/>
+<vertex x="-2.8575" y="1.5875"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.8575" y="-1.5875"/>
+<vertex x="-0.9525" y="-2.54"/>
+<vertex x="-2.8575" y="-3.4925"/>
+</polygon>
+<text x="-3.81" y="4.7625" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-6.6675" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-3.81" y1="4.1275" x2="1.27" y2="4.1275" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="1.27" y1="4.1275" x2="1.27" y2="-4.1275" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="1.27" y1="-4.1275" x2="-3.81" y2="-4.1275" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-3.81" y1="-4.1275" x2="-3.81" y2="4.1275" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-0.9652" y1="-3.556" x2="-1.524" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-3.556" x2="-1.524" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-0.9398" y1="-1.524" x2="-0.4318" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.4318" y1="-1.524" x2="-0.4318" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.9652" y1="1.524" x2="-1.524" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.524" x2="-1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-0.9398" y1="3.556" x2="-0.4064" y2="3.556" width="0.254" layer="94"/>
+<wire x1="-0.4064" y1="3.556" x2="-0.4064" y2="3.2766" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DIODE-TVS-" prefix="D" uservalue="yes">
@@ -8618,6 +8665,29 @@ small signal diode
 <attribute name="MFR" value="Fairchild/ON semi" constant="no"/>
 <attribute name="MPN" value="S1B" constant="no"/>
 <attribute name="VOLT" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS70-05-TP" prefix="D">
+<description>DIODE CC ARRAY SCHOTTKY 70V</description>
+<gates>
+<gate name="G$1" symbol="SHTKY_CC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="BAS70-05TPMSCT-ND" constant="no"/>
+<attribute name="MFR" value="Micro Commercial" constant="no"/>
+<attribute name="MPN" value="BAS70-05-TP" constant="no"/>
+<attribute name="VOLT" value="70V" constant="no"/>
 </technology>
 </technologies>
 </device>
