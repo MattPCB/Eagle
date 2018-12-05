@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -79,11 +79,11 @@
 <wire x1="61.1632" y1="10.541" x2="67.3354" y2="4.3688" width="0" layer="20" curve="-90"/>
 <wire x1="67.3354" y1="4.3688" x2="67.3354" y2="0" width="0" layer="20"/>
 <wire x1="67.3354" y1="0" x2="122.301" y2="0" width="0" layer="20"/>
-<wire x1="122.301" y1="0" x2="122.301" y2="22.86" width="0" layer="20"/>
-<wire x1="122.301" y1="22.86" x2="115.951" y2="22.86" width="0" layer="20"/>
-<wire x1="115.951" y1="22.86" x2="115.951" y2="75.946" width="0" layer="20"/>
-<wire x1="115.951" y1="75.946" x2="122.301" y2="75.946" width="0" layer="20"/>
-<wire x1="122.301" y1="75.946" x2="122.301" y2="122.047" width="0" layer="20"/>
+<wire x1="122.301" y1="0" x2="122.301" y2="17.78" width="0" layer="20"/>
+<wire x1="122.301" y1="17.78" x2="115.951" y2="17.78" width="0" layer="20"/>
+<wire x1="115.951" y1="17.78" x2="115.951" y2="78.74" width="0" layer="20"/>
+<wire x1="115.951" y1="78.74" x2="122.301" y2="78.74" width="0" layer="20"/>
+<wire x1="122.301" y1="78.74" x2="122.301" y2="122.047" width="0" layer="20"/>
 <wire x1="122.301" y1="122.047" x2="67.3354" y2="122.047" width="0" layer="20"/>
 <wire x1="54.991" y1="122.047" x2="0" y2="122.047" width="0" layer="20"/>
 <wire x1="0" y1="122.047" x2="0" y2="0" width="0" layer="20"/>
@@ -132,6 +132,120 @@
 <dimension x1="0" y1="101.6508" x2="66.1416" y2="101.6508" x3="33.0708" y3="110.5154" textsize="1.27" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
 <dimension x1="0" y1="101.6508" x2="0" y2="0" x3="-11.8364" y3="50.8254" textsize="1.27" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 </package>
+<package name="TAKASHI_WH170-33-N">
+<wire x1="10.5" y1="-22.5" x2="-3.7" y2="-22.5" width="0.127" layer="20"/>
+<wire x1="-3.7" y1="-22.5" x2="-4.5" y2="-21.7" width="0.127" layer="20" curve="-90"/>
+<wire x1="-4.5" y1="-21.7" x2="-4.5" y2="21.7" width="0.127" layer="20"/>
+<wire x1="-4.5" y1="21.7" x2="-3.7" y2="22.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="-3.7" y1="22.5" x2="10.5" y2="22.5" width="0.127" layer="20"/>
+<wire x1="10.5" y1="22.5" x2="16.5" y2="28.5" width="0.127" layer="20" curve="90"/>
+<wire x1="16.5" y1="28.5" x2="16.5" y2="37.2" width="0.127" layer="20"/>
+<wire x1="16.5" y1="37.2" x2="16.8" y2="37.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="16.8" y1="37.5" x2="65.2" y2="37.5" width="0.127" layer="20"/>
+<wire x1="65.2" y1="37.5" x2="65.5" y2="37.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="65.5" y1="37.2" x2="65.5" y2="30" width="0.127" layer="20"/>
+<wire x1="77.5" y1="30" x2="77.5" y2="37.2" width="0.127" layer="20"/>
+<wire x1="77.5" y1="37.2" x2="77.8" y2="37.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="77.8" y1="37.5" x2="138.2" y2="37.5" width="0.127" layer="20"/>
+<wire x1="138.2" y1="37.5" x2="138.5" y2="37.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="138.5" y1="37.2" x2="138.5" y2="28.5" width="0.127" layer="20"/>
+<wire x1="138.5" y1="28.5" x2="144.5" y2="22.5" width="0.127" layer="20" curve="90"/>
+<wire x1="144.5" y1="22.5" x2="155.7" y2="22.5" width="0.127" layer="20"/>
+<wire x1="155.7" y1="22.5" x2="156.5" y2="21.7" width="0.127" layer="20" curve="-90"/>
+<wire x1="156.5" y1="21.7" x2="156.5" y2="-21.7" width="0.127" layer="20"/>
+<wire x1="156.5" y1="-21.7" x2="155.7" y2="-22.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="155.7" y1="-22.5" x2="144.5" y2="-22.5" width="0.127" layer="20"/>
+<wire x1="144.5" y1="-22.5" x2="138.5" y2="-28.5" width="0.127" layer="20" curve="90"/>
+<wire x1="138.5" y1="-28.5" x2="138.5" y2="-37.2" width="0.127" layer="20"/>
+<wire x1="138.5" y1="-37.2" x2="138.2" y2="-37.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="138.2" y1="-37.5" x2="77.8" y2="-37.5" width="0.127" layer="20"/>
+<wire x1="77.8" y1="-37.5" x2="77.5" y2="-37.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="77.5" y1="-37.2" x2="77.5" y2="-30" width="0.127" layer="20"/>
+<wire x1="65.5" y1="-30" x2="65.5" y2="-37.2" width="0.127" layer="20"/>
+<wire x1="65.5" y1="-37.2" x2="65.2" y2="-37.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="65.2" y1="-37.5" x2="16.8" y2="-37.5" width="0.127" layer="20"/>
+<wire x1="16.8" y1="-37.5" x2="16.5" y2="-37.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="16.5" y1="-37.2" x2="16.5" y2="-28.5" width="0.127" layer="20"/>
+<wire x1="16.5" y1="-28.5" x2="10.5" y2="-22.5" width="0.127" layer="20" curve="90"/>
+<wire x1="65.5" y1="30" x2="77.5" y2="30" width="0.127" layer="20" curve="180"/>
+<wire x1="65.5" y1="-30" x2="77.5" y2="-30" width="0.127" layer="20" curve="-180"/>
+<hole x="20.5" y="30" drill="2.5"/>
+<hole x="20.5" y="-30" drill="2.5"/>
+<hole x="61.5" y="30" drill="2.5"/>
+<hole x="61.5" y="-30" drill="2.5"/>
+<hole x="134.5" y="-30" drill="2.5"/>
+<hole x="134.5" y="30" drill="2.5"/>
+<wire x1="-15.6" y1="0" x2="170.8" y2="0" width="0.03" layer="49" style="longdash"/>
+<dimension x1="16.8" y1="37.5" x2="16.8" y2="-37.5" x3="-24.5" y3="0" textsize="1.27" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="-4.5" y1="23.7" x2="156.5" y2="22.2" x3="76" y3="58.5" textsize="1.27" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
+<text x="-6" y="-22" size="1.27" layer="49" rot="R90">TOP</text>
+<text x="158.6" y="-22.5" size="1.27" layer="49" rot="R90">BOTTOM</text>
+<wire x1="131" y1="-33.5" x2="114" y2="-33.5" width="0.127" layer="21"/>
+<wire x1="114" y1="-33.5" x2="95.5" y2="-33.5" width="0.127" layer="21"/>
+<wire x1="95.5" y1="-33.5" x2="79" y2="-33.5" width="0.127" layer="21"/>
+<wire x1="79" y1="-33.5" x2="77" y2="-31.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="77" y1="-31.5" x2="77" y2="31.5" width="0.127" layer="21"/>
+<wire x1="77" y1="31.5" x2="79" y2="33.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="79" y1="33.5" x2="95.5" y2="33.5" width="0.127" layer="21"/>
+<wire x1="95.5" y1="33.5" x2="114" y2="33.5" width="0.127" layer="21"/>
+<wire x1="114" y1="33.5" x2="131" y2="33.5" width="0.127" layer="21"/>
+<wire x1="131" y1="33.5" x2="133" y2="31.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="133" y1="31.5" x2="133" y2="-31.5" width="0.127" layer="21"/>
+<wire x1="133" y1="-31.5" x2="131" y2="-33.5" width="0.127" layer="21" curve="-90"/>
+<polygon width="0.127" layer="39">
+<vertex x="131" y="-33.5"/>
+<vertex x="79" y="-33.5" curve="-90"/>
+<vertex x="77" y="-31.5"/>
+<vertex x="77" y="31.5" curve="-90"/>
+<vertex x="79" y="33.5"/>
+<vertex x="131" y="33.5" curve="-90"/>
+<vertex x="133" y="31.5"/>
+<vertex x="133" y="-31.5" curve="-90"/>
+</polygon>
+<wire x1="95.5" y1="33.5" x2="95.5" y2="-33.5" width="0.127" layer="21"/>
+<wire x1="114" y1="-33.5" x2="114" y2="33.5" width="0.127" layer="21"/>
+<wire x1="95.5" y1="33.5" x2="78" y2="-33" width="0.15" layer="21"/>
+<wire x1="95.5" y1="-33.5" x2="78" y2="33" width="0.15" layer="21"/>
+<wire x1="114" y1="-33.5" x2="132" y2="33" width="0.15" layer="21"/>
+<wire x1="114" y1="33.5" x2="132" y2="-33" width="0.15" layer="21"/>
+<text x="111.5" y="-17" size="5" layer="21" rot="R90">BATTERY
+ PACK</text>
+</package>
+<package name="TAKASHI_WH170-33_CONCRETESENSORMOD">
+<wire x1="10.5" y1="-24" x2="0.3" y2="-24" width="0.127" layer="20"/>
+<wire x1="0.3" y1="-24" x2="0" y2="-23.7" width="0.127" layer="20" curve="-90"/>
+<wire x1="0" y1="-23.7" x2="0" y2="23.7" width="0.127" layer="20"/>
+<wire x1="0" y1="23.7" x2="0.3" y2="24" width="0.127" layer="20" curve="-90"/>
+<wire x1="0.3" y1="24" x2="10.5" y2="24" width="0.127" layer="20"/>
+<wire x1="10.5" y1="24" x2="16.5" y2="30" width="0.127" layer="20" curve="90"/>
+<wire x1="16.5" y1="30" x2="16.5" y2="37.2" width="0.127" layer="20"/>
+<wire x1="16.5" y1="37.2" x2="16.8" y2="37.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="16.8" y1="37.5" x2="65.2" y2="37.5" width="0.127" layer="20"/>
+<wire x1="65.2" y1="37.5" x2="65.5" y2="37.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="65.5" y1="37.2" x2="65.5" y2="30" width="0.127" layer="20"/>
+<wire x1="65.5" y1="-30" x2="65.5" y2="-37.2" width="0.127" layer="20"/>
+<wire x1="65.5" y1="-37.2" x2="65.2" y2="-37.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="65.2" y1="-37.5" x2="16.8" y2="-37.5" width="0.127" layer="20"/>
+<wire x1="16.8" y1="-37.5" x2="16.5" y2="-37.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="16.5" y1="-37.2" x2="16.5" y2="-30" width="0.127" layer="20"/>
+<wire x1="16.5" y1="-30" x2="10.5" y2="-24" width="0.127" layer="20" curve="90"/>
+<wire x1="65.5" y1="30" x2="71.5" y2="24" width="0.127" layer="20" curve="90"/>
+<hole x="20.5" y="30" drill="2.5"/>
+<hole x="20.5" y="-30" drill="2.5"/>
+<hole x="61.5" y="30" drill="2.5"/>
+<hole x="61.5" y="-30" drill="2.5"/>
+<wire x1="-15.6" y1="0" x2="95.4" y2="0" width="0.03" layer="49" style="longdash"/>
+<dimension x1="16.8" y1="37.5" x2="16.8" y2="-37.5" x3="-24.5" y3="0" textsize="1.27" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<text x="-1.5" y="-20.7" size="1.27" layer="49" rot="R90">USB SIDE</text>
+<text x="80.6" y="-22.75" size="1.27" layer="49" rot="R90">BATTERY SIDE</text>
+<wire x1="77.35" y1="24" x2="77.35" y2="-24" width="0.127" layer="20"/>
+<wire x1="77.35" y1="-24" x2="71.55" y2="-24" width="0.127" layer="20"/>
+<wire x1="71.55" y1="-24" x2="71.45" y2="-24" width="0.127" layer="20"/>
+<wire x1="77.35" y1="24" x2="71.5" y2="24" width="0.127" layer="20"/>
+<wire x1="65.5" y1="-30" x2="71.55" y2="-24" width="0.127" layer="20" curve="-90.477454"/>
+<dimension x1="0" y1="23.7" x2="77.35" y2="24" x3="38.675" y3="53" textsize="1.27" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
+<dimension x1="16.5" y1="37.2" x2="65.5" y2="36.6" x3="41" y3="48.25" textsize="1.27" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ENCLOSURE">
@@ -162,6 +276,8 @@
 <wire x1="3.302" y1="1.016" x2="2.794" y2="0.508" width="0.254" layer="94" curve="-90"/>
 <wire x1="2.794" y1="0.508" x2="2.286" y2="1.016" width="0.254" layer="94" curve="-90"/>
 <wire x1="2.286" y1="1.016" x2="2.794" y2="1.524" width="0.254" layer="94" curve="-90"/>
+<text x="-5.08" y="-4.572" size="1.27" layer="94">&gt;MPN</text>
+<text x="-5.08" y="3.302" size="1.27" layer="94">ENCLOSURE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -182,6 +298,29 @@
 <attribute name="MFR" value="Hammond" constant="no"/>
 <attribute name="MOUSER" value="546-1598BSGYPBK" constant="no"/>
 <attribute name="MPN" value="1598BSGYPBK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TAKASHI">
+<gates>
+<gate name="G$1" symbol="ENCLOSURE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TAKASHI_WH170-33-N">
+<technologies>
+<technology name="">
+<attribute name="MFR" value="Takashi" constant="no"/>
+<attribute name="MPN" value="WH170-33-N" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TAKASHI_170-33_CONCRETE_MOD" package="TAKASHI_WH170-33_CONCRETESENSORMOD">
+<technologies>
+<technology name="">
+<attribute name="MFR" value="Takashi" constant="no"/>
+<attribute name="MPN" value="WH170-33-N" constant="no"/>
 </technology>
 </technologies>
 </device>

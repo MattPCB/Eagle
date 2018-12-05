@@ -1658,6 +1658,20 @@ Texas Instruments</description>
 <text x="7.62" y="12.7" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS54202">
+<pin name="VIN" x="-10.16" y="2.54" length="short"/>
+<pin name="EN" x="-10.16" y="-2.54" length="short"/>
+<pin name="GND" x="0" y="-12.7" length="short" rot="R90"/>
+<pin name="BOOT" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="SW" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="FB" x="10.16" y="-5.08" length="short" rot="R180"/>
+<text x="7.62" y="12.7" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP1117*" prefix="U">
@@ -3023,6 +3037,32 @@ TO-92 and SOIC 8 pin packages&lt;br&gt;
 <attribute name="DIGIKEY" value="AP2120N-3.3TRG1DICT-ND" constant="no"/>
 <attribute name="MPN" value="AP2120N-3.3TRG1" constant="no"/>
 <attribute name="VOLT" value="3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS54202" prefix="U">
+<description>IC REG BUCK ADJ 2A</description>
+<gates>
+<gate name="G$1" symbol="TPS54202" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="6"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-44151-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TPS54202DDCT" constant="no"/>
+<attribute name="P1I" value="o" constant="no"/>
 </technology>
 </technologies>
 </device>

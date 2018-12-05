@@ -2034,7 +2034,7 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="COEF" value="NPO" constant="no"/>
-<attribute name="DIGIKEY" value="PCC180ACVCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="311-1061-1-ND" constant="no"/>
 <attribute name="SIZE" value="0603" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="VALUE" value="18PF"/>
@@ -3641,6 +3641,23 @@ chip</description>
 <attribute name="SIZE" value="0603" constant="no"/>
 <attribute name="VALUE" value="2.2uF" constant="no"/>
 <attribute name="VOLT" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="75PF.50V.NPO" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COEF" value="NPO" constant="no"/>
+<attribute name="DIGIKEY" value="478-10336-1-ND" constant="no"/>
+<attribute name="MFR" value="AVX" constant="no"/>
+<attribute name="MPN" value="06035A750JAT2A" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="VALUE" value="75pF" constant="no"/>
+<attribute name="VOLT" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>

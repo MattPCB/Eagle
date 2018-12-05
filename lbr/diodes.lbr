@@ -8693,6 +8693,28 @@ small signal diode
 </device>
 </devices>
 </deviceset>
+<deviceset name="SMAJ5.0A" prefix="D">
+<description>TVS DIODE 5V 9.2V SMA</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SMAJ5.0A-FDICT-ND" constant="no"/>
+<attribute name="MFR" value="Diodes Inc" constant="no"/>
+<attribute name="MPN" value="SMAJ5.0A-13-F" constant="no"/>
+<attribute name="VOLT" value="5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
